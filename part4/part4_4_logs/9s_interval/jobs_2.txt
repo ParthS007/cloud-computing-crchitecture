@@ -1,0 +1,38 @@
+2025-05-15T17:52:20.111794 start scheduler
+2025-05-15T17:52:20.131054 start memcached [0,1] 2
+2025-05-15T17:52:21.328216 start ferret [2,3] 2
+2025-05-15T17:52:21.523359 start blackscholes [1] 1
+2025-05-15T17:52:25.721465 pause blackscholes
+2025-05-15T17:52:44.330703 unpause blackscholes
+2025-05-15T17:52:52.670846 pause blackscholes
+2025-05-15T17:56:33.383838 end ferret
+2025-05-15T17:56:33.630500 start freqmine [2,3] 2
+2025-05-15T17:59:20.618533 unpause blackscholes
+2025-05-15T17:59:54.890887 pause blackscholes
+2025-05-15T18:00:43.197447 unpause blackscholes
+2025-05-15T18:01:09.409796 pause blackscholes
+2025-05-15T18:01:13.446462 end freqmine
+2025-05-15T18:01:13.676328 start vips [2,3] 2
+2025-05-15T18:01:32.459142 unpause blackscholes
+2025-05-15T18:01:35.366434 pause blackscholes
+2025-05-15T18:02:09.957432 end vips
+2025-05-15T18:02:10.256551 start canneal [2,3] 1
+2025-05-15T18:02:38.389682 unpause blackscholes
+2025-05-15T18:03:04.530161 pause blackscholes
+2025-05-15T18:04:34.987546 unpause blackscholes
+2025-05-15T18:04:51.107534 pause blackscholes
+2025-05-15T18:05:39.357434 unpause blackscholes
+2025-05-15T18:05:41.388293 end blackscholes
+2025-05-15T18:05:41.612179 start dedup [1] 1
+2025-05-15T18:05:56.486599 pause dedup
+2025-05-15T18:06:24.656102 unpause dedup
+2025-05-15T18:06:30.720352 pause dedup
+2025-05-15T18:06:35.186740 end canneal
+2025-05-15T18:06:35.459294 start radix [2,3] 1
+2025-05-15T18:07:27.683182 end radix
+2025-05-15T18:07:27.708006 update_cores dedup [2,3]
+2025-05-15T18:07:27.732590 unpause dedup
+2025-05-15T18:07:29.768178 update_cores dedup [2,3]
+2025-05-15T18:07:31.806234 update_cores dedup [2,3]
+2025-05-15T18:07:33.810702 end dedup
+2025-05-15T18:07:33.824099 end scheduler

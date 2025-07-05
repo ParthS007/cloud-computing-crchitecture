@@ -1,0 +1,51 @@
+2025-05-15T18:10:10.035189 start scheduler
+2025-05-15T18:10:10.054507 start memcached [0,1] 2
+2025-05-15T18:10:11.246108 start ferret [2,3] 2
+2025-05-15T18:10:11.446056 start blackscholes [1] 1
+2025-05-15T18:10:15.591687 pause blackscholes
+2025-05-15T18:10:34.147762 unpause blackscholes
+2025-05-15T18:10:42.478041 pause blackscholes
+2025-05-15T18:14:37.625476 end ferret
+2025-05-15T18:14:37.914210 start freqmine [2,3] 2
+2025-05-15T18:17:10.701107 unpause blackscholes
+2025-05-15T18:17:44.952811 pause blackscholes
+2025-05-15T18:18:31.205940 unpause blackscholes
+2025-05-15T18:18:57.402783 pause blackscholes
+2025-05-15T18:19:15.582550 end freqmine
+2025-05-15T18:19:15.766386 start vips [2,3] 2
+2025-05-15T18:19:17.790356 unpause blackscholes
+2025-05-15T18:19:23.864758 pause blackscholes
+2025-05-15T18:20:21.562052 end vips
+2025-05-15T18:20:21.775397 start canneal [2,3] 1
+2025-05-15T18:20:27.810128 unpause blackscholes
+2025-05-15T18:20:53.943523 pause blackscholes
+2025-05-15T18:22:26.395402 unpause blackscholes
+2025-05-15T18:22:35.745424 end blackscholes
+2025-05-15T18:22:35.992487 start dedup [1] 1
+2025-05-15T18:22:42.097214 pause dedup
+2025-05-15T18:23:28.335582 unpause dedup
+2025-05-15T18:23:49.224745 end dedup
+2025-05-15T18:24:13.526309 start radix [1] 1
+2025-05-15T18:24:21.571976 end canneal
+2025-05-15T18:24:21.593574 update_cores radix [2,3]
+2025-05-15T18:24:23.637757 update_cores radix [2,3]
+2025-05-15T18:24:25.663162 update_cores radix [2,3]
+2025-05-15T18:24:27.690197 update_cores radix [2,3]
+2025-05-15T18:24:29.713211 update_cores radix [2,3]
+2025-05-15T18:24:31.736095 update_cores radix [2,3]
+2025-05-15T18:24:33.760145 update_cores radix [2,3]
+2025-05-15T18:24:35.783836 update_cores radix [2,3]
+2025-05-15T18:24:37.806982 update_cores radix [2,3]
+2025-05-15T18:24:39.828249 update_cores radix [2,3]
+2025-05-15T18:24:41.850887 update_cores radix [2,3]
+2025-05-15T18:24:43.873717 update_cores radix [2,3]
+2025-05-15T18:24:45.896386 update_cores radix [2,3]
+2025-05-15T18:24:47.920005 update_cores radix [2,3]
+2025-05-15T18:24:49.943417 update_cores radix [2,3]
+2025-05-15T18:24:51.966480 update_cores radix [2,3]
+2025-05-15T18:24:53.991282 update_cores radix [2,3]
+2025-05-15T18:24:56.012569 update_cores radix [2,3]
+2025-05-15T18:24:58.033958 update_cores radix [2,3]
+2025-05-15T18:25:00.054543 update_cores radix [2,3]
+2025-05-15T18:25:02.058484 end radix
+2025-05-15T18:25:02.070768 end scheduler

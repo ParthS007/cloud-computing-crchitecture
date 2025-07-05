@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Install Scheduler",
+      "type": "shell",
+      "command": "ansible-playbook",
+      "args": [
+        "-i",
+        "part4/ansible/inventory.yaml",
+        "part4/ansible/install_scheduler.yaml"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "close": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

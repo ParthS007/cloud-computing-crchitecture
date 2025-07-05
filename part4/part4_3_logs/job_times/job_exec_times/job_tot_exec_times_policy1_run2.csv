@@ -1,0 +1,8 @@
+job_name,total_execution_time_seconds
+blackscholes,125
+canneal,263
+dedup,25
+ferret,258
+freqmine,288
+radix,48
+vips,59

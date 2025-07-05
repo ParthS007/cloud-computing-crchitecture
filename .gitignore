@@ -1,0 +1,6 @@
+.local
+venv/*
+launch.json
+settings.json
+env/
+.ansible/*

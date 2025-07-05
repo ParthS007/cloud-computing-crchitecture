@@ -1,0 +1,318 @@
+=== Starting experiment run at Thu Apr 10 16:52:45 CEST 2025 ===
+Starting experiment with 3 runs
+Verifying mcperf installations...
+Warning: Permanently added 'compute.639067024808109586' (ED25519) to the list of known hosts.
+Connection to 104.199.75.162 closed.
+WARNING: mcperf not found on client-agent-a-rjfl
+Warning: Permanently added 'compute.1191370037770479129' (ED25519) to the list of known hosts.
+Connection to 34.38.178.153 closed.
+WARNING: mcperf not found on client-agent-b-krzn
+Warning: Permanently added 'compute.9052546914131273236' (ED25519) to the list of known hosts.
+Connection to 34.22.244.112 closed.
+WARNING: mcperf not found on client-measure-fs8t
+mcperf is not installed on all required nodes.
+Please run ./part3/install_mcperf.sh before proceeding.
+ERROR: Required mcperf is not installed. Please run ./part3/install_mcperf.sh first.
+Cleaning up resources...
+No resources found
+Cleanup completed
+=== Starting experiment run at Thu Apr 10 16:56:37 CEST 2025 ===
+Starting experiment with 3 runs
+Verifying mcperf installations...
+Connection to 104.199.75.162 closed.
+Connection to 34.38.178.153 closed.
+Connection to 34.22.244.112 closed.
+mcperf is installed on all required nodes.
+==========================================
+Starting Run #1 - Thu Apr 10 16:56:45 CEST 2025
+==========================================
+Starting memcached on node-b-2core...
+pod/memcached created
+Waiting for memcached to be ready...
+pod/memcached condition met
+Memcached IP: 100.96.2.2
+Agent A: client-agent-a-rjfl (10.0.16.10)
+Agent B: client-agent-b-krzn (10.0.16.3)
+Measure node: client-measure-fs8t
+Starting mcperf load generators...
+Starting agent A load generator...
+Starting agent B load generator...
+Waiting for load generators to initialize (10s)...
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Starting mcperf measurement...
+Starting PARSEC jobs via controller scripts...
+Starting all node controllers in parallel...
+Starting controller for node-b-2core (blackscholes)...
+Starting blackscholes (attempt 1)...
+Starting controller for node-a-2core (canneal)...
+Starting canneal (attempt 1)...
+Starting controller for node-d-4core (ferret, vips, dedup)...
+Starting parsec-ferret (attempt 1)...
+Starting controller for node-c-4core (freqmine, radix)...
+Starting parsec-freqmine (attempt 1)...
+job.batch/parsec-freqmine created
+job.batch/parsec-blackscholes created
+job.batch/parsec-ferret created
+job.batch/parsec-canneal created
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Local QPS = 19293.2 (192932 / 10.0s) - 192932.0, 0.0
+#type       avg     std     min      p5     p10     p50     p67     p75     p80     p85     p90     p95     p99    p999   p9999 QPS
+read      220.1   144.7    86.8   125.3   136.1   201.3   232.4   249.1   261.3   274.8   294.8   332.7   693.9  1968.8  3823.3  19293.2
+Local QPS = 9643.7 (96437 / 10.0s) - 96437.0, 0.0
+#type       avg     std     min      p5     p10     p50     p67     p75     p80     p85     p90     p95     p99    p999   p9999 QPS
+read      229.2   168.6    80.4   116.9   127.7   201.5   233.3   251.9   266.9   286.7   317.9   396.3   920.7  2296.7  3685.2   9643.7
+Local QPS = 19306.3 (193063 / 10.0s) - 193063.0, 0.0
+#type       avg     std     min      p5     p10     p50     p67     p75     p80     p85     p90     p95     p99    p999   p9999 QPS
+read      209.5    97.3    80.4   124.7   134.5   197.5   231.7   249.3   261.3   274.1   291.2   316.3   382.9  1267.4  3020.4  19306.3
+Local QPS = 9700.9 (97009 / 10.0s) - 97009.0, 0.0
+#type       avg     std     min      p5     p10     p50     p67     p75     p80     p85     p90     p95     p99    p999   p9999 QPS
+read      209.8   111.7    80.4   116.3   125.5   195.8   231.1   248.7   261.3   275.1   294.7   331.1   484.6  1638.4  3176.2   9700.9
+Local QPS = 9627.4 (96274 / 10.0s) - 96274.0, 0.0
+Local QPS = 19346.6 (193466 / 10.0s) - 193466.0, 0.0
+#type       avg     std     min      p5     p10     p50     p67     p75     p80     p85     p90     p95     p99    p999   p9999 QPS
+read      205.2   146.3    86.8   119.9   129.4   191.7   219.6   234.4   246.6   261.1   281.1   318.6   472.9  1432.1  2704.3   9627.4
+#type       avg     std     min      p5     p10     p50     p67     p75     p80     p85     p90     p95     p99    p999   p9999 QPS
+read      199.3    81.2    80.4   125.1   134.4   189.3   217.0   231.5   241.9   253.7   269.5   293.5   359.0  1052.8  2533.8  19346.6
+Local QPS = 9630.0 (96300 / 10.0s) - 96300.0, 0.0
+Local QPS = 19424.4 (194244 / 10.0s) - 194244.0, 0.0
+#type       avg     std     min      p5     p10     p50     p67     p75     p80     p85     p90     p95     p99    p999   p9999 QPS
+read      208.6   107.1    86.8   116.3   125.8   195.5   229.1   246.3   258.4   272.6   292.1   324.7   466.4  1703.3  2821.7   9630.0
+#type       avg     std     min      p5     p10     p50     p67     p75     p80     p85     p90     p95     p99    p999   p9999 QPS
+read      211.3   111.3    86.8   126.5   136.0   196.8   230.3   248.1   260.4   273.6   291.3   317.3   399.3  1676.8  3306.6  19424.4
+Local QPS = 19323.5 (193235 / 10.0s) - 193235.0, 0.0
+Local QPS = 9642.9 (96429 / 10.0s) - 96429.0, 0.0
+#type       avg     std     min      p5     p10     p50     p67     p75     p80     p85     p90     p95     p99    p999   p9999 QPS
+read      220.6   486.8    80.4   116.8   127.7   197.9   228.8   245.5   257.7   272.7   294.3   333.5   498.8  2015.3 32007.9   9642.9
+#type       avg     std     min      p5     p10     p50     p67     p75     p80     p85     p90     p95     p99    p999   p9999 QPS
+read      218.1   505.7    86.8   127.4   137.2   197.5   229.0   245.7   257.3   270.6   287.4   312.1   371.7  1578.1 33031.2  19323.5
+Local QPS = 19399.9 (193999 / 10.0s) - 193999.0, 0.0
+Local QPS = 9686.1 (96861 / 10.0s) - 96861.0, 0.0
+#type       avg     std     min      p5     p10     p50     p67     p75     p80     p85     p90     p95     p99    p999   p9999 QPS
+read      206.1    96.2    80.4   118.2   128.5   195.8   224.6   239.4   251.1   265.6   285.1   319.2   440.9  1231.1  2794.3   9686.1
+#type       avg     std     min      p5     p10     p50     p67     p75     p80     p85     p90     p95     p99    p999   p9999 QPS
+read      200.6    88.4    86.8   123.6   133.4   190.8   220.4   235.5   246.9   259.3   274.0   296.5   350.6   887.5  3209.8  19399.9
+Local QPS = 9647.1 (96471 / 10.0s) - 96471.0, 0.0
+Local QPS = 19289.8 (192899 / 10.0s) - 192899.0, 0.0
+#type       avg     std     min      p5     p10     p50     p67     p75     p80     p85     p90     p95     p99    p999   p9999 QPS
+read      219.1   119.3    80.4   119.2   128.9   201.8   236.7   254.8   268.9   286.0   310.3   358.0   598.8  1697.9  2737.9   9647.1
+#type       avg     std     min      p5     p10     p50     p67     p75     p80     p85     p90     p95     p99    p999   p9999 QPS
+read      205.6    87.9    86.8   125.2   134.7   194.2   225.4   241.6   253.0   266.5   283.0   308.9   372.9  1203.5  2467.7  19289.8
+Cleaning up resources...
+parsec-ferret failed on attempt 1.
+Canneal failed on attempt 1.
+Blackscholes failed on attempt 1.
+parsec-freqmine failed on attempt 1.
+job.batch "parsec-freqmine" deleted
+job.batch "parsec-canneal" deleted
+job.batch "parsec-ferret" deleted
+job.batch "parsec-blackscholes" deleted
+No resources found
+pod "memcached" deleted
+Cleaning up resources...
+No resources found
+pod "memcached" deleted
+Starting parsec-freqmine (attempt 2)...
+Starting canneal (attempt 2)...
+Starting parsec-ferret (attempt 2)...
+Starting blackscholes (attempt 2)...
+job.batch/parsec-freqmine created
+job.batch/parsec-ferret created
+job.batch/parsec-canneal created
+job.batch/parsec-blackscholes created
+job.batch/parsec-ferret condition met
+parsec-ferret completed successfully.
+Starting parsec-vips (attempt 1)...
+job.batch/parsec-vips created
+error: timed out waiting for the condition on jobs/parsec-blackscholes
+error: timed out waiting for the condition on jobs/parsec-freqmine
+error: timed out waiting for the condition on jobs/parsec-canneal
+Blackscholes failed on attempt 2.
+parsec-freqmine failed on attempt 2.
+Canneal failed on attempt 2.
+E0410 19:07:26.098105   50252 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:59762->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:59755->[::1]:10011: read: connection reset by peer"
+E0410 19:07:26.098102   50251 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:59761->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:59757->[::1]:10011: read: connection reset by peer"
+E0410 19:07:26.098548   50253 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:59763->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:59756->[::1]:10011: read: connection reset by peer"
+E0410 19:07:36.160102   50253 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:59833->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:59826->[::1]:10011: read: connection reset by peer"
+E0410 19:07:36.160101   50251 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:59832->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:59827->[::1]:10011: read: connection reset by peer"
+E0410 19:07:36.160216   50252 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:59831->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:59825->[::1]:10011: read: connection reset by peer"
+E0410 19:07:46.224426   50253 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:59901->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:59895->[::1]:10011: read: connection reset by peer"
+E0410 19:07:46.224594   50251 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:59900->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:59896->[::1]:10011: read: connection reset by peer"
+E0410 19:07:46.225187   50252 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:59902->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:59894->[::1]:10011: read: connection reset by peer"
+E0410 19:07:56.286854   50253 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:59969->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:59962->[::1]:10011: read: connection reset by peer"
+E0410 19:07:56.287486   50251 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:59970->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:59963->[::1]:10011: read: connection reset by peer"
+E0410 19:07:56.287559   50252 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:59968->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:59964->[::1]:10011: read: connection reset by peer"
+E0410 19:08:06.351395   50252 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60040->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60036->[::1]:10011: read: connection reset by peer"
+E0410 19:08:06.351395   50251 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60041->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60034->[::1]:10011: read: connection reset by peer"
+E0410 19:08:06.351805   50253 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60042->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60035->[::1]:10011: read: connection reset by peer"
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:60040->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60036->[::1]:10011: read: connection reset by peer
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:60041->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60034->[::1]:10011: read: connection reset by peer
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:60042->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60035->[::1]:10011: read: connection reset by peer
+Starting blackscholes (attempt 3)...
+Starting canneal (attempt 3)...
+Starting parsec-freqmine (attempt 3)...
+error: error validating "part3/parsec-freqmine.yaml": error validating data: failed to download openapi: Get "http://localhost:8080/openapi/v2?timeout=32s": read tcp [::1]:60192->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60187->[::1]:10011: read: connection reset by peer; if you choose to ignore these errors, turn validation off with --validate=false
+error: error validating "part3/parsec-blackscholes.yaml": error validating data: failed to download openapi: Get "http://localhost:8080/openapi/v2?timeout=32s": read tcp [::1]:60191->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60185->[::1]:10011: read: connection reset by peer; if you choose to ignore these errors, turn validation off with --validate=false
+error: error validating "part3/parsec-canneal.yaml": error validating data: failed to download openapi: Get "http://localhost:8080/openapi/v2?timeout=32s": read tcp [::1]:60193->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60186->[::1]:10011: read: connection reset by peer; if you choose to ignore these errors, turn validation off with --validate=false
+E0410 19:08:46.662439   50264 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60269->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60263->[::1]:10011: read: connection reset by peer"
+E0410 19:08:46.662440   50265 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60267->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60261->[::1]:10011: read: connection reset by peer"
+E0410 19:08:46.663342   50263 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60268->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60262->[::1]:10011: read: connection reset by peer"
+E0410 19:08:56.726147   50263 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60335->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60329->[::1]:10011: read: connection reset by peer"
+E0410 19:08:56.726149   50265 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60336->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60331->[::1]:10011: read: connection reset by peer"
+E0410 19:08:56.726975   50264 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60337->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60330->[::1]:10011: read: connection reset by peer"
+E0410 19:09:06.784470   50264 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60412->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60404->[::1]:10011: read: connection reset by peer"
+E0410 19:09:06.784470   50263 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60413->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60405->[::1]:10011: read: connection reset by peer"
+E0410 19:09:06.784673   50265 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60411->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60403->[::1]:10011: read: connection reset by peer"
+error: timed out waiting for the condition on jobs/parsec-vips
+parsec-vips failed on attempt 1.
+E0410 19:09:16.849103   50263 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60487->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60479->[::1]:10011: read: connection reset by peer"
+E0410 19:09:16.849942   50264 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60488->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60478->[::1]:10011: read: connection reset by peer"
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:60487->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60479->[::1]:10011: read: connection reset by peer
+E0410 19:09:16.850531   50265 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60489->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60477->[::1]:10011: read: connection reset by peer"
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:60488->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60478->[::1]:10011: read: connection reset by peer
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:60489->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60477->[::1]:10011: read: connection reset by peer
+parsec-freqmine failed on attempt 3.
+Canneal failed on attempt 3.
+Blackscholes failed on attempt 3.
+E0410 19:09:26.125726   50270 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60577->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60569->[::1]:10011: read: connection reset by peer"
+E0410 19:09:26.976378   50271 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60581->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60571->[::1]:10011: read: connection reset by peer"
+E0410 19:09:26.976379   50272 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60582->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60573->[::1]:10011: read: connection reset by peer"
+E0410 19:09:26.976866   50273 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60583->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60572->[::1]:10011: read: connection reset by peer"
+E0410 19:09:36.179432   50270 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60667->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60659->[::1]:10011: read: connection reset by peer"
+E0410 19:09:37.048701   50273 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60673->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60662->[::1]:10011: read: connection reset by peer"
+E0410 19:09:37.048741   50271 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60672->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60663->[::1]:10011: read: connection reset by peer"
+E0410 19:09:37.048701   50272 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60671->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60661->[::1]:10011: read: connection reset by peer"
+E0410 19:09:46.229044   50270 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60756->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60748->[::1]:10011: read: connection reset by peer"
+E0410 19:09:47.109759   50273 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60761->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60750->[::1]:10011: read: connection reset by peer"
+E0410 19:09:47.109759   50271 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60760->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60752->[::1]:10011: read: connection reset by peer"
+E0410 19:09:47.109760   50272 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60762->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60751->[::1]:10011: read: connection reset by peer"
+E0410 19:09:56.285496   50270 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60844->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60836->[::1]:10011: read: connection reset by peer"
+E0410 19:09:57.170960   50272 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60850->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60840->[::1]:10011: read: connection reset by peer"
+E0410 19:09:57.171032   50271 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp 127.0.0.1:60851->127.0.0.1:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60839->[::1]:10011: read: connection reset by peer"
+E0410 19:09:57.171844   50273 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60848->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60838->[::1]:10011: read: connection reset by peer"
+E0410 19:10:06.344189   50270 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60933->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60925->[::1]:10011: read: connection reset by peer"
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:60933->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60925->[::1]:10011: read: connection reset by peer
+E0410 19:10:07.237665   50271 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60936->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60928->[::1]:10011: read: connection reset by peer"
+E0410 19:10:07.237665   50273 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60935->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60929->[::1]:10011: read: connection reset by peer"
+E0410 19:10:07.237665   50272 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:60937->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60927->[::1]:10011: read: connection reset by peer"
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:60936->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60928->[::1]:10011: read: connection reset by peer
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:60935->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60929->[::1]:10011: read: connection reset by peer
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:60937->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:60927->[::1]:10011: read: connection reset by peer
+Starting parsec-vips (attempt 2)...
+Failed to run canneal after 3 attempts.
+Failed to run blackscholes after 3 attempts.
+Failed to run parsec-freqmine after 3 attempts.
+Starting parsec-radix (attempt 1)...
+error: error validating "part3/parsec-vips.yaml": error validating data: failed to download openapi: Get "http://localhost:8080/openapi/v2?timeout=32s": read tcp [::1]:61034->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61030->[::1]:10011: read: connection reset by peer; if you choose to ignore these errors, turn validation off with --validate=false
+error: error validating "part3/parsec-radix.yaml": error validating data: failed to download openapi: Get "http://localhost:8080/openapi/v2?timeout=32s": read tcp [::1]:61040->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61032->[::1]:10011: read: connection reset by peer; if you choose to ignore these errors, turn validation off with --validate=false
+E0410 19:10:46.635122   50285 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61083->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61079->[::1]:10011: read: connection reset by peer"
+E0410 19:10:47.558186   50286 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61087->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61081->[::1]:10011: read: connection reset by peer"
+E0410 19:10:56.694603   50285 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61127->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61123->[::1]:10011: read: connection reset by peer"
+E0410 19:10:57.616701   50286 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp 127.0.0.1:61131->127.0.0.1:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61125->[::1]:10011: read: connection reset by peer"
+E0410 19:11:06.750810   50285 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61171->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61167->[::1]:10011: read: connection reset by peer"
+E0410 19:11:07.674123   50286 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61175->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61169->[::1]:10011: read: connection reset by peer"
+E0410 19:11:16.808284   50285 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61218->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61214->[::1]:10011: read: connection reset by peer"
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:61218->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61214->[::1]:10011: read: connection reset by peer
+parsec-vips failed on attempt 2.
+E0410 19:11:17.731398   50286 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61224->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61216->[::1]:10011: read: connection reset by peer"
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:61224->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61216->[::1]:10011: read: connection reset by peer
+parsec-radix failed on attempt 1.
+E0410 19:11:26.916260   50288 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61268->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61264->[::1]:10011: read: connection reset by peer"
+E0410 19:11:27.853889   50289 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp 127.0.0.1:61273->127.0.0.1:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61266->[::1]:10011: read: connection reset by peer"
+E0410 19:11:36.975816   50288 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61313->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61309->[::1]:10011: read: connection reset by peer"
+E0410 19:11:37.908370   50289 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61317->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61311->[::1]:10011: read: connection reset by peer"
+E0410 19:11:47.041067   50288 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61358->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61354->[::1]:10011: read: connection reset by peer"
+E0410 19:11:47.970094   50289 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61362->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61356->[::1]:10011: read: connection reset by peer"
+E0410 19:11:57.094796   50288 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61402->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61398->[::1]:10011: read: connection reset by peer"
+E0410 19:11:58.035039   50289 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp 127.0.0.1:61407->127.0.0.1:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61400->[::1]:10011: read: connection reset by peer"
+E0410 19:12:07.146321   50288 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61447->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61443->[::1]:10011: read: connection reset by peer"
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:61447->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61443->[::1]:10011: read: connection reset by peer
+E0410 19:12:08.095805   50289 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61449->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61445->[::1]:10011: read: connection reset by peer"
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:61449->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61445->[::1]:10011: read: connection reset by peer
+Starting parsec-vips (attempt 3)...
+Starting parsec-radix (attempt 2)...
+error: error validating "part3/parsec-vips.yaml": error validating data: failed to download openapi: Get "http://localhost:8080/openapi/v2?timeout=32s": read tcp [::1]:61548->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61544->[::1]:10011: read: connection reset by peer; if you choose to ignore these errors, turn validation off with --validate=false
+error: error validating "part3/parsec-radix.yaml": error validating data: failed to download openapi: Get "http://localhost:8080/openapi/v2?timeout=32s": read tcp [::1]:61554->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61546->[::1]:10011: read: connection reset by peer; if you choose to ignore these errors, turn validation off with --validate=false
+E0410 19:12:47.455563   50302 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61599->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61595->[::1]:10011: read: connection reset by peer"
+E0410 19:12:48.411094   50303 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61603->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61597->[::1]:10011: read: connection reset by peer"
+E0410 19:12:57.513452   50302 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp 127.0.0.1:61644->127.0.0.1:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61639->[::1]:10011: read: connection reset by peer"
+E0410 19:12:58.472322   50303 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61648->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61641->[::1]:10011: read: connection reset by peer"
+E0410 19:13:07.566553   50302 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61688->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61684->[::1]:10011: read: connection reset by peer"
+E0410 19:13:08.531883   50303 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61692->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61686->[::1]:10011: read: connection reset by peer"
+E0410 19:13:17.615770   50302 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61737->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61733->[::1]:10011: read: connection reset by peer"
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:61737->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61733->[::1]:10011: read: connection reset by peer
+parsec-vips failed on attempt 3.
+E0410 19:13:18.598698   50303 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61743->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61735->[::1]:10011: read: connection reset by peer"
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:61743->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61735->[::1]:10011: read: connection reset by peer
+parsec-radix failed on attempt 2.
+E0410 19:13:27.724668   50305 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61786->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61781->[::1]:10011: read: connection reset by peer"
+E0410 19:13:28.722685   50306 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61790->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp 127.0.0.1:61784->127.0.0.1:10011: read: connection reset by peer"
+E0410 19:13:37.814264   50305 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61848->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61844->[::1]:10011: read: connection reset by peer"
+E0410 19:13:38.819684   50306 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61855->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61847->[::1]:10011: read: connection reset by peer"
+E0410 19:13:47.860912   50305 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61903->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61900->[::1]:10011: read: connection reset by peer"
+E0410 19:13:48.865672   50306 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61909->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61904->[::1]:10011: read: connection reset by peer"
+E0410 19:13:57.918489   50305 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp 127.0.0.1:61949->127.0.0.1:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61944->[::1]:10011: read: connection reset by peer"
+E0410 19:13:58.927916   50306 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61955->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp 127.0.0.1:61950->127.0.0.1:10011: read: connection reset by peer"
+E0410 19:14:07.980853   50305 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61993->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61990->[::1]:10011: read: connection reset by peer"
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:61993->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61990->[::1]:10011: read: connection reset by peer
+E0410 19:14:08.986263   50306 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:61997->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61994->[::1]:10011: read: connection reset by peer"
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:61997->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:61994->[::1]:10011: read: connection reset by peer
+Failed to run parsec-vips after 3 attempts.
+Starting parsec-dedup (attempt 1)...
+Starting parsec-radix (attempt 3)...
+error: error validating "part3/parsec-dedup.yaml": error validating data: failed to download openapi: Get "http://localhost:8080/openapi/v2?timeout=32s": read tcp [::1]:62088->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62084->[::1]:10011: read: connection reset by peer; if you choose to ignore these errors, turn validation off with --validate=false
+error: error validating "part3/parsec-radix.yaml": error validating data: failed to download openapi: Get "http://localhost:8080/openapi/v2?timeout=32s": read tcp [::1]:62095->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62087->[::1]:10011: read: connection reset by peer; if you choose to ignore these errors, turn validation off with --validate=false
+E0410 19:14:48.303449   50327 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62137->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62133->[::1]:10011: read: connection reset by peer"
+E0410 19:14:49.312108   50328 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62145->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62136->[::1]:10011: read: connection reset by peer"
+E0410 19:14:58.359571   50327 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62182->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62179->[::1]:10011: read: connection reset by peer"
+E0410 19:14:59.367282   50328 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62188->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62183->[::1]:10011: read: connection reset by peer"
+E0410 19:15:08.423022   50327 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62227->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62222->[::1]:10011: read: connection reset by peer"
+E0410 19:15:09.428321   50328 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62232->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62226->[::1]:10011: read: connection reset by peer"
+E0410 19:15:18.480499   50327 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62278->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62274->[::1]:10011: read: connection reset by peer"
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:62278->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62274->[::1]:10011: read: connection reset by peer
+parsec-dedup failed on attempt 1.
+E0410 19:15:19.485969   50328 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62285->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62277->[::1]:10011: read: connection reset by peer"
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:62285->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62277->[::1]:10011: read: connection reset by peer
+parsec-radix failed on attempt 3.
+E0410 19:15:28.589132   50333 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp 127.0.0.1:62328->127.0.0.1:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62321->[::1]:10011: read: connection reset by peer"
+E0410 19:15:29.595688   50334 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62333->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp 127.0.0.1:62327->127.0.0.1:10011: read: connection reset by peer"
+E0410 19:15:38.647861   50333 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62372->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62368->[::1]:10011: read: connection reset by peer"
+E0410 19:15:39.652801   50334 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62377->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62371->[::1]:10011: read: connection reset by peer"
+E0410 19:15:48.700801   50333 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62417->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62413->[::1]:10011: read: connection reset by peer"
+E0410 19:15:49.706336   50334 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62423->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62418->[::1]:10011: read: connection reset by peer"
+E0410 19:15:58.755520   50333 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp 127.0.0.1:62466->127.0.0.1:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62459->[::1]:10011: read: connection reset by peer"
+E0410 19:15:59.760429   50334 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62471->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp 127.0.0.1:62465->127.0.0.1:10011: read: connection reset by peer"
+E0410 19:16:08.818548   50333 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62509->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62506->[::1]:10011: read: connection reset by peer"
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:62509->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62506->[::1]:10011: read: connection reset by peer
+E0410 19:16:09.824864   50334 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62513->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62510->[::1]:10011: read: connection reset by peer"
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:62513->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62510->[::1]:10011: read: connection reset by peer
+Starting parsec-dedup (attempt 2)...
+Failed to run parsec-radix after 3 attempts.
+error: error validating "part3/parsec-dedup.yaml": error validating data: failed to download openapi: Get "http://localhost:8080/openapi/v2?timeout=32s": read tcp [::1]:62562->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62560->[::1]:10011: read: connection reset by peer; if you choose to ignore these errors, turn validation off with --validate=false
+E0410 19:16:49.143735   50340 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62587->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62585->[::1]:10011: read: connection reset by peer"
+E0410 19:16:59.205974   50340 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62610->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp 127.0.0.1:62608->127.0.0.1:10011: read: connection reset by peer"
+E0410 19:17:09.267092   50340 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62636->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62634->[::1]:10011: read: connection reset by peer"
+E0410 19:17:19.333599   50340 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62663->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62661->[::1]:10011: read: connection reset by peer"
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:62663->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62661->[::1]:10011: read: connection reset by peer
+parsec-dedup failed on attempt 2.
+E0410 19:17:29.460771   50344 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62690->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp 127.0.0.1:62686->127.0.0.1:10011: read: connection reset by peer"
+E0410 19:17:39.521238   50344 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62712->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62710->[::1]:10011: read: connection reset by peer"
+E0410 19:17:49.578546   50344 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62734->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62732->[::1]:10011: read: connection reset by peer"
+E0410 19:17:59.637922   50344 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62757->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp 127.0.0.1:62755->127.0.0.1:10011: read: connection reset by peer"
+E0410 19:18:09.696528   50344 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62781->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62779->[::1]:10011: read: connection reset by peer"
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:62781->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62779->[::1]:10011: read: connection reset by peer
+Starting parsec-dedup (attempt 3)...
+error: error validating "part3/parsec-dedup.yaml": error validating data: failed to download openapi: Get "http://localhost:8080/openapi/v2?timeout=32s": read tcp [::1]:62832->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62830->[::1]:10011: read: connection reset by peer; if you choose to ignore these errors, turn validation off with --validate=false
+E0410 19:18:50.019039   50351 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62857->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62855->[::1]:10011: read: connection reset by peer"
+E0410 19:19:00.069955   50351 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62880->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp 127.0.0.1:62878->127.0.0.1:10011: read: connection reset by peer"
+E0410 19:19:10.125078   50351 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62902->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62900->[::1]:10011: read: connection reset by peer"
+E0410 19:19:20.186069   50351 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62927->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62925->[::1]:10011: read: connection reset by peer"
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:62927->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62925->[::1]:10011: read: connection reset by peer
+parsec-dedup failed on attempt 3.
+E0410 19:19:30.299594   50355 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62952->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp 127.0.0.1:62950->127.0.0.1:10011: read: connection reset by peer"
+E0410 19:19:40.356602   50355 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62976->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62974->[::1]:10011: read: connection reset by peer"
+E0410 19:19:50.416217   50355 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:62999->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:62997->[::1]:10011: read: connection reset by peer"
+E0410 19:20:00.472413   50355 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:63022->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:63020->[::1]:10011: read: connection reset by peer"
+E0410 19:20:10.526776   50355 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp [::1]:63044->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:63042->[::1]:10011: read: connection reset by peer"
+error: Get "http://localhost:8080/api?timeout=32s": read tcp [::1]:63044->[::1]:10011: read: connection reset by peer - error from a previous attempt: read tcp [::1]:63042->[::1]:10011: read: connection reset by peer
+Failed to run parsec-dedup after 3 attempts.

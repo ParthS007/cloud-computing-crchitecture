@@ -1,0 +1,18 @@
+Job Timestamps (GMT+2)
+======================
+Format: job_name, status, timestamp
+parsec-blackscholes, STARTED, 2025-04-19 16:29:46
+parsec-canneal, STARTED, 2025-04-19 16:29:47
+parsec-ferret, STARTED, 2025-04-19 16:29:48
+parsec-freqmine, STARTED, 2025-04-19 16:29:48
+parsec-blackscholes, COMPLETED, 2025-04-19 16:31:14
+parsec-dedup, STARTED, 2025-04-19 16:31:15
+parsec-dedup, COMPLETED, 2025-04-19 16:32:13
+parsec-freqmine, COMPLETED, 2025-04-19 16:32:14
+parsec-radix, STARTED, 2025-04-19 16:32:15
+parsec-radix, COMPLETED, 2025-04-19 16:32:29
+parsec-vips, STARTED, 2025-04-19 16:32:29
+parsec-canneal, COMPLETED, 2025-04-19 16:32:56
+parsec-vips, COMPLETED, 2025-04-19 16:33:25
+parsec-ferret, COMPLETED, 2025-04-19 16:34:12
+All jobs have completed. Monitoring finished.

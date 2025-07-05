@@ -1,0 +1,173 @@
+---
+- name: Install and configure memcached
+  hosts: memcached_servers
+  become: true
+  tasks:
+    - name: Update apt cache
+      ansible.builtin.apt:
+        update_cache: true
+
+    - name: Install memcached and tools
+      ansible.builtin.apt:
+        name:
+          - memcached
+          - libmemcached-tools
+          - python3.12-venv
+          - docker.io
+          - screen
+        state: present
+
+    - name: Check memcached status
+      ansible.builtin.command: systemctl status memcached
+      register: memcached_status
+      changed_when: false
+      ignore_errors: true
+
+    - name: Update memcached configuration
+      ansible.builtin.lineinfile:
+        path: /etc/memcached.conf
+        regexp: "{{ item.regexp }}"
+        line: "{{ item.line }}"
+      loop:
+        - { regexp: '^-m \d+', line: "-m 1024" }
+        - { regexp: "^-l.*", line: "-l {{ internal_ip }}" }
+        - { regexp: '^-t \d+', line: "-t {{ memcached_threads | default(1) }}" }
+      notify:
+        - Restart memcached
+    - name: Add ansible user to docker group
+      ansible.builtin.command: usermod -aG docker {{ ansible_user }}
+      become: true
+      become_user: "root"
+
+  handlers:
+    - name: Restart memcached
+      ansible.builtin.systemd:
+        name: memcached
+        state: restarted
+
+- name: Install modified mcperf on client machines
+  hosts: client_agents:client_measures
+  become: true
+  tasks:
+    - name: Update sources.list to include deb-src
+      ansible.builtin.replace:
+        path: /etc/apt/sources.list.d/ubuntu.sources
+        regexp: "^Types: deb$"
+        replace: "Types: deb deb-src"
+      failed_when: false
+
+    - name: Update apt cache
+      ansible.builtin.apt:
+        update_cache: true
+
+    - name: Install dependencies
+      ansible.builtin.apt:
+        name:
+          - libevent-dev
+          - libzmq3-dev
+          - git
+          - make
+          - g++
+          - screen
+        state: present
+
+    - name: Install memcached build dependencies
+      ansible.builtin.apt:
+        name: memcached
+        state: build-dep
+
+    - name: Clone memcache-perf-dynamic repository
+      ansible.builtin.git:
+        repo: https://github.com/eth-easl/memcache-perf-dynamic.git
+        dest: /home/{{ ansible_user }}/memcache-perf-dynamic
+      become: true
+      become_user: "{{ ansible_user }}"
+
+    - name: Build mcperf
+      ansible.builtin.command: make
+      args:
+        chdir: /home/{{ ansible_user }}/memcache-perf-dynamic
+        creates: /home/{{ ansible_user }}/memcache-perf-dynamic/mcperf
+      become: true
+      become_user: "{{ ansible_user }}"
+
+- name: Start mcperf agent
+  hosts: client_agents
+  become: true
+  tasks:
+    - name: Copy mcperf_agent.sh
+      ansible.builtin.copy:
+        src: mcperf_agent.sh
+        dest: /home/{{ ansible_user }}/memcache-perf-dynamic/mcperf_agent.sh
+        mode: "0755"
+        owner: "{{ ansible_user }}"
+        group: "{{ ansible_user }}"
+    - name: Start mcperf agent with 8 threads
+      ansible.builtin.command: ./mcperf_agent.sh
+      args:
+        chdir: /home/{{ ansible_user }}/memcache-perf-dynamic
+      async: 315360000 # Run for a long time (10 years)
+      poll: 0 # Don't wait for completion
+      become: true
+      become_user: "{{ ansible_user }}"
+
+- name: Prepare client measure
+  hosts: client_measures
+  become: true
+  vars:
+    memcached_server_ip: "{{ hostvars['memcache-server']['internal_ip'] }}"
+    agent_server_ip: "{{ hostvars['client-agent']['internal_ip'] }}"
+  tasks:
+    - name: Create run script for dynamic load
+      ansible.builtin.copy:
+        dest: /home/{{ ansible_user }}/memcache-perf-dynamic/run_load.sh
+        content: |
+          #!/bin/bash
+          if [ -z "$1" ]; then
+            echo "Usage: $0 <logfile>"
+            exit 1
+          fi
+
+          LOGFILE="$1"
+          cd /home/{{ ansible_user }}/memcache-perf-dynamic
+          ./mcperf -s {{ memcached_server_ip }} --loadonly 
+          {{ mcperf_command | default('./mcperf -s ' + memcached_server_ip + ' -a ' + agent_server_ip + ' --noload -T 8 -C 8 -D 4 -Q 1000 -c 8 -t 10 \
+            --qps_interval 2 --qps_min 5000 --qps_max 180000') }} >> $LOGFILE 2>&1
+        mode: "0755"
+        owner: "{{ ansible_user }}"
+        group: "{{ ansible_user }}"
+# - name: Install scheduler
+#   hosts: memcached_servers
+#   become: true
+#   tasks:
+#     # - name: Install cpuUsageMeasurer
+#     #   ansible.builtin.copy:
+#     #     src: cpuUsageMeasurer.py
+#     #     dest: /home/{{ ansible_user }}/cpuUsageMeasurer.py
+#     #     mode: "0755"
+#     #     owner: "{{ ansible_user }}"
+#     #     group: "{{ ansible_user }}"
+#     # - name: Copy requirements.txt
+#     #   ansible.builtin.copy:
+#     #     src: requirements.txt
+#     #     dest: /home/{{ ansible_user }}/requirements.txt
+#     - name: Copy scheduler
+#       ansible.builtin.copy:
+#         src: ../scheduler/
+#         dest: /home/{{ ansible_user }}/scheduler/
+#         mode: "0755"
+#         owner: "{{ ansible_user }}"
+#         group: "{{ ansible_user }}"
+#     - name: Create virtual environment
+#       ansible.builtin.command: python3 -m venv venv
+#       args:
+#         chdir: /home/{{ ansible_user }}/scheduler
+#       become: true
+#       become_user: "{{ ansible_user }}"
+#     - name: Install dependencies
+#       ansible.builtin.pip:
+#         requirements: /home/{{ ansible_user }}/scheduler/requirements.txt
+#         state: present
+#         virtualenv: /home/{{ ansible_user }}/scheduler/venv
+#       become: true
+#       become_user: "{{ ansible_user }}"

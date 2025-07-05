@@ -1,0 +1,167 @@
+2025-05-15T20:56:12.889944 start scheduler
+2025-05-15T20:56:12.908918 start memcached [0,1] 2
+2025-05-15T20:56:14.114158 start ferret [2,3] 2
+2025-05-15T20:56:14.417949 start blackscholes [1] 1
+2025-05-15T20:56:16.525110 pause blackscholes
+2025-05-15T20:56:31.008033 unpause blackscholes
+2025-05-15T20:56:37.268592 pause blackscholes
+2025-05-15T20:58:37.599722 unpause blackscholes
+2025-05-15T20:58:50.217360 pause blackscholes
+2025-05-15T20:58:58.561280 unpause blackscholes
+2025-05-15T20:59:11.117076 pause blackscholes
+2025-05-15T20:59:48.800053 unpause blackscholes
+2025-05-15T20:59:59.328688 pause blackscholes
+2025-05-15T21:00:09.783538 unpause blackscholes
+2025-05-15T21:00:14.097383 pause blackscholes
+2025-05-15T21:00:37.174623 unpause blackscholes
+2025-05-15T21:00:45.644237 end ferret
+2025-05-15T21:00:45.894847 start freqmine [2,3] 2
+2025-05-15T21:01:02.036238 pause blackscholes
+2025-05-15T21:01:40.329955 unpause blackscholes
+2025-05-15T21:02:04.583543 pause blackscholes
+2025-05-15T21:02:28.784293 unpause blackscholes
+2025-05-15T21:02:32.874539 pause blackscholes
+2025-05-15T21:02:42.984975 unpause blackscholes
+2025-05-15T21:03:05.204172 pause blackscholes
+2025-05-15T21:03:17.318921 unpause blackscholes
+2025-05-15T21:03:21.357127 end blackscholes
+2025-05-15T21:03:21.750300 start canneal [1] 1
+2025-05-15T21:03:23.789492 pause canneal
+2025-05-15T21:03:31.869991 unpause canneal
+2025-05-15T21:03:35.945645 pause canneal
+2025-05-15T21:04:06.171841 unpause canneal
+2025-05-15T21:04:32.427581 pause canneal
+2025-05-15T21:05:02.688359 unpause canneal
+2025-05-15T21:05:06.765198 pause canneal
+2025-05-15T21:05:31.009951 unpause canneal
+2025-05-15T21:05:35.084862 pause canneal
+2025-05-15T21:05:45.171381 unpause canneal
+2025-05-15T21:05:49.325149 end freqmine
+2025-05-15T21:05:49.580128 start vips [2,3] 2
+2025-05-15T21:05:57.674648 pause canneal
+2025-05-15T21:06:34.401857 unpause canneal
+2025-05-15T21:06:46.538767 pause canneal
+2025-05-15T21:06:55.845007 end vips
+2025-05-15T21:06:56.192269 start dedup [2,3] 1
+2025-05-15T21:07:09.055446 unpause canneal
+2025-05-15T21:07:13.634141 pause canneal
+2025-05-15T21:07:21.690070 end dedup
+2025-05-15T21:07:21.942118 start radix [2,3] 1
+2025-05-15T21:08:12.192137 end radix
+2025-05-15T21:08:12.208993 update_cores canneal [1,2,3]
+2025-05-15T21:08:12.220475 unpause canneal
+2025-05-15T21:08:14.245385 update_cores canneal [1,2,3]
+2025-05-15T21:08:16.276307 update_cores canneal [2,3]
+2025-05-15T21:08:18.323589 update_cores canneal [2,3]
+2025-05-15T21:08:20.351577 update_cores canneal [2,3]
+2025-05-15T21:08:22.381624 update_cores canneal [2,3]
+2025-05-15T21:08:24.413225 update_cores canneal [2,3]
+2025-05-15T21:08:26.444517 update_cores canneal [2,3]
+2025-05-15T21:08:28.474856 update_cores canneal [2,3]
+2025-05-15T21:08:30.497180 update_cores canneal [2,3]
+2025-05-15T21:08:32.519176 update_cores canneal [1,2,3]
+2025-05-15T21:08:34.554718 update_cores canneal [1,2,3]
+2025-05-15T21:08:36.579535 update_cores canneal [1,2,3]
+2025-05-15T21:08:38.603379 update_cores canneal [1,2,3]
+2025-05-15T21:08:40.631829 update_cores canneal [1,2,3]
+2025-05-15T21:08:42.654941 update_cores canneal [1,2,3]
+2025-05-15T21:08:44.694616 update_cores canneal [2,3]
+2025-05-15T21:08:46.748894 update_cores canneal [2,3]
+2025-05-15T21:08:48.783191 update_cores canneal [2,3]
+2025-05-15T21:08:50.820616 update_cores canneal [2,3]
+2025-05-15T21:08:52.854100 update_cores canneal [2,3]
+2025-05-15T21:08:54.889614 update_cores canneal [2,3]
+2025-05-15T21:08:56.923280 update_cores canneal [2,3]
+2025-05-15T21:08:58.957781 update_cores canneal [2,3]
+2025-05-15T21:09:00.992356 update_cores canneal [2,3]
+2025-05-15T21:09:03.030199 update_cores canneal [2,3]
+2025-05-15T21:09:05.061379 update_cores canneal [2,3]
+2025-05-15T21:09:07.094109 update_cores canneal [2,3]
+2025-05-15T21:09:09.127877 update_cores canneal [2,3]
+2025-05-15T21:09:11.167649 update_cores canneal [2,3]
+2025-05-15T21:09:13.200114 update_cores canneal [2,3]
+2025-05-15T21:09:15.232559 update_cores canneal [2,3]
+2025-05-15T21:09:17.266288 update_cores canneal [2,3]
+2025-05-15T21:09:19.290008 update_cores canneal [2,3]
+2025-05-15T21:09:21.311619 update_cores canneal [1,2,3]
+2025-05-15T21:09:23.345837 update_cores canneal [1,2,3]
+2025-05-15T21:09:25.376660 update_cores canneal [1,2,3]
+2025-05-15T21:09:27.409459 update_cores canneal [2,3]
+2025-05-15T21:09:29.458912 update_cores canneal [2,3]
+2025-05-15T21:09:31.487600 update_cores canneal [2,3]
+2025-05-15T21:09:33.515224 update_cores canneal [2,3]
+2025-05-15T21:09:35.544466 update_cores canneal [2,3]
+2025-05-15T21:09:37.573965 update_cores canneal [2,3]
+2025-05-15T21:09:39.608088 update_cores canneal [2,3]
+2025-05-15T21:09:41.643161 update_cores canneal [2,3]
+2025-05-15T21:09:43.686430 update_cores canneal [2,3]
+2025-05-15T21:09:45.718199 update_cores canneal [2,3]
+2025-05-15T21:09:47.745645 update_cores canneal [2,3]
+2025-05-15T21:09:49.771465 update_cores canneal [1,2,3]
+2025-05-15T21:09:51.812647 update_cores canneal [2,3]
+2025-05-15T21:09:53.857438 update_cores canneal [2,3]
+2025-05-15T21:09:55.886749 update_cores canneal [2,3]
+2025-05-15T21:09:57.913947 update_cores canneal [2,3]
+2025-05-15T21:09:59.944896 update_cores canneal [2,3]
+2025-05-15T21:10:01.970592 update_cores canneal [2,3]
+2025-05-15T21:10:03.997040 update_cores canneal [1,2,3]
+2025-05-15T21:10:06.036961 update_cores canneal [1,2,3]
+2025-05-15T21:10:08.062740 update_cores canneal [1,2,3]
+2025-05-15T21:10:10.088747 update_cores canneal [1,2,3]
+2025-05-15T21:10:12.114540 update_cores canneal [1,2,3]
+2025-05-15T21:10:14.144609 update_cores canneal [1,2,3]
+2025-05-15T21:10:16.177844 update_cores canneal [2,3]
+2025-05-15T21:10:18.229564 update_cores canneal [2,3]
+2025-05-15T21:10:20.258471 update_cores canneal [2,3]
+2025-05-15T21:10:22.299025 update_cores canneal [2,3]
+2025-05-15T21:10:24.333751 update_cores canneal [2,3]
+2025-05-15T21:10:26.375753 update_cores canneal [2,3]
+2025-05-15T21:10:28.406196 update_cores canneal [2,3]
+2025-05-15T21:10:30.434545 update_cores canneal [2,3]
+2025-05-15T21:10:32.466376 update_cores canneal [2,3]
+2025-05-15T21:10:34.495503 update_cores canneal [2,3]
+2025-05-15T21:10:36.528036 update_cores canneal [2,3]
+2025-05-15T21:10:38.557873 update_cores canneal [2,3]
+2025-05-15T21:10:40.591926 update_cores canneal [2,3]
+2025-05-15T21:10:42.614208 update_cores canneal [2,3]
+2025-05-15T21:10:44.636304 update_cores canneal [1,2,3]
+2025-05-15T21:10:46.672388 update_cores canneal [1,2,3]
+2025-05-15T21:10:48.694941 update_cores canneal [1,2,3]
+2025-05-15T21:10:50.721288 update_cores canneal [1,2,3]
+2025-05-15T21:10:52.746428 update_cores canneal [1,2,3]
+2025-05-15T21:10:54.770293 update_cores canneal [1,2,3]
+2025-05-15T21:10:56.804254 update_cores canneal [2,3]
+2025-05-15T21:10:58.854962 update_cores canneal [2,3]
+2025-05-15T21:11:00.886209 update_cores canneal [2,3]
+2025-05-15T21:11:02.918699 update_cores canneal [2,3]
+2025-05-15T21:11:04.940632 update_cores canneal [2,3]
+2025-05-15T21:11:06.961065 update_cores canneal [1,2,3]
+2025-05-15T21:11:08.994252 update_cores canneal [1,2,3]
+2025-05-15T21:11:11.025268 update_cores canneal [2,3]
+2025-05-15T21:11:13.078127 update_cores canneal [2,3]
+2025-05-15T21:11:15.111251 update_cores canneal [2,3]
+2025-05-15T21:11:17.144014 update_cores canneal [2,3]
+2025-05-15T21:11:19.171214 update_cores canneal [2,3]
+2025-05-15T21:11:21.200751 update_cores canneal [1,2,3]
+2025-05-15T21:11:23.244522 update_cores canneal [1,2,3]
+2025-05-15T21:11:25.271561 update_cores canneal [1,2,3]
+2025-05-15T21:11:27.300269 update_cores canneal [1,2,3]
+2025-05-15T21:11:29.327625 update_cores canneal [1,2,3]
+2025-05-15T21:11:31.358947 update_cores canneal [1,2,3]
+2025-05-15T21:11:33.390453 update_cores canneal [2,3]
+2025-05-15T21:11:35.442927 update_cores canneal [2,3]
+2025-05-15T21:11:37.475521 update_cores canneal [2,3]
+2025-05-15T21:11:39.503402 update_cores canneal [2,3]
+2025-05-15T21:11:41.533408 update_cores canneal [2,3]
+2025-05-15T21:11:43.561530 update_cores canneal [2,3]
+2025-05-15T21:11:45.585225 update_cores canneal [2,3]
+2025-05-15T21:11:47.608315 update_cores canneal [1,2,3]
+2025-05-15T21:11:49.646654 update_cores canneal [1,2,3]
+2025-05-15T21:11:51.670284 update_cores canneal [1,2,3]
+2025-05-15T21:11:53.704986 update_cores canneal [2,3]
+2025-05-15T21:11:55.754222 update_cores canneal [2,3]
+2025-05-15T21:11:57.784043 update_cores canneal [2,3]
+2025-05-15T21:11:59.821109 update_cores canneal [2,3]
+2025-05-15T21:12:01.856970 update_cores canneal [2,3]
+2025-05-15T21:12:03.864541 end canneal
+2025-05-15T21:12:03.884935 end scheduler

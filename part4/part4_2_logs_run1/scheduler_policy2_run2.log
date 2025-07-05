@@ -1,0 +1,1854 @@
+[1746535354] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU_LOW: 70
+[1746535354] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU_HIGH: 100
+[1746535354] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU_HIGH_THRESHOLD: 2
+[1746535354] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Memcached PID: 8086
+[1746535354] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535354] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Memcached CPU affinity set to 0,1
+[1746535354] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Starting scheduler with policy: 2_3_cores
+[1746535355] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [67.1, 65.8, 8.6, 15.5]
+[1746535355] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535355] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes started with cores 2,3 and 2 threads
+[1746535357] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [62.2, 72.2, 15.1, 100.0]
+[1746535357] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535357] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535359] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [18.9, 16.7, 2.2, 100.0]
+[1746535359] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535359] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535361] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [13.1, 8.2, 2.1, 100.0]
+[1746535361] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535361] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535361] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes paused
+[1746535367] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret started with cores 1,2,3 and 3 threads
+[1746535367] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535369] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [42.0, 100.0, 99.0, 100.0]
+[1746535369] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535369] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535369] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535371] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [92.1, 100.0, 100.0, 100.0]
+[1746535371] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535371] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535371] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535371] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret paused
+[1746535371] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes unpaused
+[1746535371] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535373] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [40.9, 40.0, 9.4, 100.0]
+[1746535373] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535373] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535373] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535375] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [40.3, 46.2, 7.1, 100.0]
+[1746535375] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535375] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535375] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535375] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes paused
+[1746535375] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret unpaused
+[1746535375] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535377] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [91.9, 100.0, 100.0, 100.0]
+[1746535377] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535377] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535377] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535377] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret paused
+[1746535377] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes unpaused
+[1746535377] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535379] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [16.7, 16.9, 4.4, 100.0]
+[1746535379] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535379] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535379] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535381] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [12.7, 12.7, 1.1, 100.0]
+[1746535381] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535381] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535381] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535381] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes paused
+[1746535381] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret unpaused
+[1746535381] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535383] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [17.5, 99.0, 100.0, 100.0]
+[1746535383] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535383] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535383] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535385] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [9.4, 100.0, 100.0, 100.0]
+[1746535385] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535385] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535385] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535387] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [22.0, 100.0, 99.0, 100.0]
+[1746535387] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535387] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535387] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535389] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [100.0, 100.0, 89.9, 100.0]
+[1746535389] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535389] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535390] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535390] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret paused
+[1746535390] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes unpaused
+[1746535390] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535392] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [80.0, 75.0, 100.0, 22.5]
+[1746535392] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535392] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535392] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535394] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [72.7, 76.5, 100.0, 100.0]
+[1746535394] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535394] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535394] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535396] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [78.7, 77.5, 100.0, 100.0]
+[1746535396] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535396] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535396] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535398] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [73.3, 75.3, 100.0, 100.0]
+[1746535398] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535398] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535398] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535400] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [55.1, 55.2, 100.0, 100.0]
+[1746535400] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535400] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535400] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535402] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [58.6, 56.5, 100.0, 100.0]
+[1746535402] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535402] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535402] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535404] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [58.0, 57.4, 100.0, 100.0]
+[1746535404] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535404] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535404] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535406] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [61.1, 58.0, 100.0, 100.0]
+[1746535406] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535406] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535406] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535408] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [53.7, 53.7, 100.0, 100.0]
+[1746535408] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535408] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535408] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535410] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [28.8, 25.0, 100.0, 100.0]
+[1746535410] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535410] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535410] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535412] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [27.7, 29.2, 100.0, 100.0]
+[1746535412] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535412] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535412] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535412] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes paused
+[1746535412] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret unpaused
+[1746535412] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535414] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [72.7, 100.0, 100.0, 100.0]
+[1746535414] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535414] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535414] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535414] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret paused
+[1746535414] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes unpaused
+[1746535414] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535416] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [26.6, 24.2, 100.0, 100.0]
+[1746535416] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535416] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535416] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535418] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [45.2, 44.1, 100.0, 100.0]
+[1746535418] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535419] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535419] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535419] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes paused
+[1746535419] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret unpaused
+[1746535419] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535421] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [100.0, 100.0, 100.0, 100.0]
+[1746535421] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535421] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535421] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535421] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret paused
+[1746535421] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes unpaused
+[1746535421] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535423] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [90.7, 93.9, 100.0, 100.0]
+[1746535423] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535423] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535423] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535425] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [80.7, 80.2, 100.0, 100.0]
+[1746535425] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535425] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535425] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535427] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [79.5, 79.3, 100.0, 100.0]
+[1746535427] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535427] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535427] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535429] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [39.3, 34.2, 100.0, 100.0]
+[1746535429] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535429] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535429] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535431] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [20.7, 8.2, 100.0, 100.0]
+[1746535431] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535431] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535431] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535431] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes paused
+[1746535431] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret unpaused
+[1746535431] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535433] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [14.0, 100.0, 100.0, 100.0]
+[1746535433] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535433] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535433] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535435] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [15.5, 100.0, 100.0, 100.0]
+[1746535435] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535435] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535435] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535437] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [18.3, 100.0, 100.0, 100.0]
+[1746535437] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535437] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535437] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535439] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [9.2, 100.0, 100.0, 100.0]
+[1746535439] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535439] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535439] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535441] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [7.8, 100.0, 100.0, 100.0]
+[1746535441] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535441] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535441] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535443] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [10.9, 100.0, 100.0, 100.0]
+[1746535443] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535443] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535443] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535445] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [10.9, 100.0, 100.0, 100.0]
+[1746535445] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535445] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535445] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535447] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [13.6, 100.0, 100.0, 100.0]
+[1746535447] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535447] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535448] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535450] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [100.0, 100.0, 100.0, 100.0]
+[1746535450] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535450] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535450] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535450] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret paused
+[1746535450] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes unpaused
+[1746535450] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535452] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [53.5, 55.2, 100.0, 100.0]
+[1746535452] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535452] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535452] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535454] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [52.2, 53.6, 100.0, 100.0]
+[1746535454] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535454] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535454] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535456] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [51.5, 55.9, 100.0, 100.0]
+[1746535456] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535456] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535456] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535458] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [54.4, 54.5, 100.0, 100.0]
+[1746535458] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535458] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535458] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535460] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [15.3, 6.8, 100.0, 100.0]
+[1746535460] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535460] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535460] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535462] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [19.6, 5.7, 100.0, 100.0]
+[1746535462] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535462] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535462] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535462] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes paused
+[1746535462] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret unpaused
+[1746535462] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535464] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [9.0, 100.0, 100.0, 100.0]
+[1746535464] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535464] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535464] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535466] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [8.8, 100.0, 100.0, 100.0]
+[1746535466] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535466] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535466] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535468] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [6.3, 100.0, 100.0, 100.0]
+[1746535468] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535468] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535468] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535470] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [70.8, 100.0, 100.0, 99.0]
+[1746535470] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535470] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535470] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535470] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret paused
+[1746535470] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes unpaused
+[1746535470] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535472] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [25.8, 23.3, 100.0, 100.0]
+[1746535472] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535472] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535472] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535474] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [27.0, 27.3, 100.0, 100.0]
+[1746535474] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535474] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535475] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535475] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes paused
+[1746535475] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret unpaused
+[1746535475] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535477] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [68.3, 100.0, 96.0, 100.0]
+[1746535477] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535477] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535477] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535479] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [70.1, 100.0, 100.0, 100.0]
+[1746535479] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535479] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535479] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535479] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret paused
+[1746535479] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes unpaused
+[1746535479] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535481] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [23.1, 20.3, 100.0, 100.0]
+[1746535481] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535481] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535481] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535483] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [26.5, 22.2, 100.0, 100.0]
+[1746535483] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535483] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535483] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535483] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes paused
+[1746535483] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret unpaused
+[1746535483] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535485] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [59.7, 100.0, 100.0, 100.0]
+[1746535485] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535485] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535485] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535487] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [62.3, 100.0, 100.0, 100.0]
+[1746535487] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535487] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535487] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535489] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [36.4, 100.0, 100.0, 100.0]
+[1746535489] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535489] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535489] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535491] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [26.0, 100.0, 100.0, 100.0]
+[1746535491] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535491] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535491] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535493] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [26.0, 100.0, 100.0, 100.0]
+[1746535493] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535493] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535493] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535495] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [35.2, 100.0, 100.0, 100.0]
+[1746535495] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535495] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535495] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535497] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [29.4, 100.0, 100.0, 100.0]
+[1746535497] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535497] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535497] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535499] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [37.7, 99.0, 99.0, 100.0]
+[1746535499] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535499] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535500] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535502] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [40.4, 100.0, 100.0, 99.0]
+[1746535502] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535502] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535502] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535504] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [45.3, 100.0, 100.0, 100.0]
+[1746535504] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535504] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535504] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535506] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [38.5, 100.0, 100.0, 100.0]
+[1746535506] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535506] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535506] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535508] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [44.4, 100.0, 100.0, 100.0]
+[1746535508] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535508] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535508] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535510] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [3.3, 100.0, 100.0, 100.0]
+[1746535510] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535510] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535510] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535512] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [11.3, 100.0, 100.0, 100.0]
+[1746535512] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535512] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535512] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535514] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [13.8, 100.0, 100.0, 100.0]
+[1746535514] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535514] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535514] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535516] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [11.3, 100.0, 100.0, 100.0]
+[1746535516] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535516] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535516] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535518] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [16.7, 100.0, 100.0, 100.0]
+[1746535518] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535518] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535518] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535520] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [82.7, 100.0, 100.0, 100.0]
+[1746535520] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535520] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535520] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535520] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret paused
+[1746535520] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes unpaused
+[1746535520] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535522] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [30.2, 33.3, 44.6, 100.0]
+[1746535522] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535522] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535522] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535524] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [32.3, 29.5, 6.9, 100.0]
+[1746535524] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535524] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535524] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535524] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes paused
+[1746535524] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret unpaused
+[1746535524] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535526] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [85.3, 100.0, 100.0, 100.0]
+[1746535526] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535526] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.PAUSED
+[1746535526] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535526] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret paused
+[1746535527] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes unpaused
+[1746535527] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535529] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [37.9, 37.9, 100.0, 13.0]
+[1746535529] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535529] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535529] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535531] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [49.2, 58.6, 12.8, 100.0]
+[1746535531] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535531] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535531] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535533] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [50.0, 54.0, 6.2, 100.0]
+[1746535533] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535533] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535533] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535535] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [51.5, 55.9, 11.8, 100.0]
+[1746535535] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535535] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535535] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535537] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [47.7, 53.8, 11.6, 100.0]
+[1746535537] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535537] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.RUNNING
+[1746535537] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535539] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [50.0, 51.5, 16.3, 28.8]
+[1746535539] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535540] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes completed in 184.69419479370117 seconds
+[1746535540] [policy: 2_3_cores] [[32mINFO[0m] [job] Job blackscholes status: JobStatus.COMPLETED
+[1746535540] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535540] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal started with cores 2,3 and 2 threads
+[1746535542] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [43.1, 47.0, 10.3, 100.0]
+[1746535542] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535542] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535542] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535544] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [46.3, 47.6, 9.4, 100.0]
+[1746535544] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535544] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535544] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535544] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal paused
+[1746535544] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret unpaused
+[1746535544] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535546] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [96.8, 100.0, 98.0, 100.0]
+[1746535546] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535546] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535546] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535546] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret paused
+[1746535546] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal unpaused
+[1746535546] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535548] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [60.0, 50.0, 100.0, 14.7]
+[1746535548] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535548] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535548] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535550] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [88.2, 81.5, 100.0, 26.4]
+[1746535550] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535550] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535551] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535553] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [90.3, 82.1, 100.0, 23.9]
+[1746535553] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535553] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535553] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535555] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [87.9, 81.2, 100.0, 27.8]
+[1746535555] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535555] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535555] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535557] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [88.8, 82.1, 100.0, 26.1]
+[1746535557] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535557] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535557] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535559] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [66.2, 58.3, 100.0, 19.7]
+[1746535559] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535559] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535559] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535561] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [44.4, 34.4, 100.0, 14.3]
+[1746535561] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535561] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535561] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535563] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [45.5, 34.4, 100.0, 11.8]
+[1746535563] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535563] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535563] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535563] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal paused
+[1746535563] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret unpaused
+[1746535563] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535565] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [91.8, 100.0, 96.0, 100.0]
+[1746535565] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535565] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535565] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535565] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret paused
+[1746535565] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal unpaused
+[1746535565] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535567] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [39.4, 42.9, 7.1, 100.0]
+[1746535567] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535567] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535567] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535569] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [83.5, 87.9, 14.3, 100.0]
+[1746535569] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535569] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535569] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535571] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [85.1, 87.5, 19.8, 100.0]
+[1746535571] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535571] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535571] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535573] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [86.2, 88.9, 17.4, 100.0]
+[1746535573] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535573] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535573] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535575] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [85.1, 88.2, 17.4, 100.0]
+[1746535575] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535575] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535575] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535577] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [84.3, 88.8, 18.6, 100.0]
+[1746535577] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535577] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535578] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535580] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [55.4, 63.2, 12.6, 100.0]
+[1746535580] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535580] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535580] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535582] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [55.9, 62.9, 10.5, 100.0]
+[1746535582] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535582] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535582] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535584] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [58.9, 62.9, 11.8, 100.0]
+[1746535584] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535584] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535584] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535586] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [56.5, 63.4, 9.3, 100.0]
+[1746535586] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535586] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535586] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535588] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [60.3, 65.3, 12.9, 100.0]
+[1746535588] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535588] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535588] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535590] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [6.2, 18.6, 4.4, 100.0]
+[1746535590] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535590] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535590] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535592] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [8.8, 15.9, 5.6, 100.0]
+[1746535592] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535592] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535592] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535592] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal paused
+[1746535592] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret unpaused
+[1746535592] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535594] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [40.7, 100.0, 97.0, 100.0]
+[1746535594] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535594] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535594] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535596] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [39.6, 100.0, 100.0, 100.0]
+[1746535596] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535596] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535596] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535598] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [29.8, 100.0, 100.0, 100.0]
+[1746535598] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535598] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535598] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535600] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [100.0, 100.0, 100.0, 100.0]
+[1746535600] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535600] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535600] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535600] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret paused
+[1746535600] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal unpaused
+[1746535600] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535602] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [76.9, 80.5, 13.1, 100.0]
+[1746535602] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535602] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535602] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535604] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [71.6, 77.8, 11.8, 100.0]
+[1746535604] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535604] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535605] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535607] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [71.6, 76.3, 12.9, 100.0]
+[1746535607] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535607] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535607] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535609] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [74.0, 79.7, 11.9, 100.0]
+[1746535609] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535609] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535609] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535611] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [78.0, 83.3, 13.3, 100.0]
+[1746535611] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535611] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535611] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535613] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [80.7, 85.9, 16.5, 100.0]
+[1746535613] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535613] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535613] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535615] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [78.7, 84.1, 13.1, 100.0]
+[1746535615] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535615] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535615] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535617] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [80.2, 85.4, 15.1, 100.0]
+[1746535617] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535617] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535617] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535619] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [70.1, 77.4, 11.8, 100.0]
+[1746535619] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535619] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535619] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535621] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [66.2, 71.6, 11.8, 100.0]
+[1746535621] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535621] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535621] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535623] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [73.7, 76.6, 79.6, 100.0]
+[1746535623] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535623] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535623] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535625] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [76.9, 78.5, 81.8, 100.0]
+[1746535625] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535625] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535625] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535627] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [75.6, 77.3, 82.8, 100.0]
+[1746535627] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535627] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535627] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535629] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [81.9, 85.4, 83.0, 99.0]
+[1746535629] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535629] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535629] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535631] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [81.2, 81.9, 81.4, 100.0]
+[1746535631] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535631] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535631] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535633] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [81.8, 85.5, 81.3, 100.0]
+[1746535633] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535633] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535634] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535636] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [84.1, 85.5, 82.5, 100.0]
+[1746535636] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535636] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535636] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535638] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [84.1, 84.5, 81.6, 100.0]
+[1746535638] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535638] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535638] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535640] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [85.9, 87.4, 82.7, 100.0]
+[1746535640] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535640] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535640] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535642] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [86.9, 87.6, 81.0, 100.0]
+[1746535642] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535642] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535642] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535644] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [84.5, 86.5, 80.6, 100.0]
+[1746535644] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535644] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535644] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535646] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [87.5, 89.1, 80.8, 100.0]
+[1746535646] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535646] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535646] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535648] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [86.2, 87.5, 80.8, 100.0]
+[1746535648] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535648] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535648] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535650] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [30.2, 31.3, 89.8, 100.0]
+[1746535650] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535650] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535650] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535652] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [31.3, 27.9, 89.9, 100.0]
+[1746535652] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535652] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535652] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535652] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal paused
+[1746535652] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret unpaused
+[1746535652] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535654] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [70.3, 100.0, 100.0, 100.0]
+[1746535654] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535654] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535655] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535655] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret paused
+[1746535655] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal unpaused
+[1746535655] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535657] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [29.0, 31.3, 90.1, 100.0]
+[1746535657] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535657] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535657] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535659] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [37.5, 34.4, 88.0, 100.0]
+[1746535659] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535659] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535659] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535659] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal paused
+[1746535659] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret unpaused
+[1746535659] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535661] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [86.4, 100.0, 100.0, 100.0]
+[1746535661] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535661] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535661] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535661] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret paused
+[1746535661] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal unpaused
+[1746535661] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535663] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [48.1, 50.0, 87.8, 100.0]
+[1746535663] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535663] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535663] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535665] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [41.5, 38.7, 86.9, 100.0]
+[1746535665] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535665] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535665] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535665] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal paused
+[1746535665] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret unpaused
+[1746535665] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535667] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [89.2, 100.0, 100.0, 100.0]
+[1746535667] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535667] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535667] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535667] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret paused
+[1746535667] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal unpaused
+[1746535667] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535669] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [47.6, 53.0, 84.8, 100.0]
+[1746535669] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535669] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535669] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535671] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [42.9, 50.0, 87.6, 100.0]
+[1746535671] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535671] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535672] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535674] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [45.3, 50.8, 86.7, 100.0]
+[1746535674] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535674] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535674] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535674] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal paused
+[1746535674] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret unpaused
+[1746535674] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535676] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [93.5, 100.0, 100.0, 100.0]
+[1746535676] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535676] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535676] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535676] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret paused
+[1746535676] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal unpaused
+[1746535676] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535678] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [47.0, 50.0, 86.9, 100.0]
+[1746535678] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535678] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535678] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535680] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [25.0, 13.9, 94.9, 100.0]
+[1746535680] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535680] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535680] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535680] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal paused
+[1746535680] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret unpaused
+[1746535680] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535682] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [21.8, 100.0, 100.0, 100.0]
+[1746535682] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535682] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535682] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535684] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [21.4, 100.0, 99.0, 100.0]
+[1746535684] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535684] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535684] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535686] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [9.8, 100.0, 100.0, 100.0]
+[1746535686] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535686] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535686] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535688] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [26.3, 100.0, 100.0, 100.0]
+[1746535688] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535688] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535688] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535690] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [24.5, 100.0, 100.0, 100.0]
+[1746535690] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535690] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535690] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535692] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [16.3, 100.0, 100.0, 100.0]
+[1746535692] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535692] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535692] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535694] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [26.4, 100.0, 100.0, 100.0]
+[1746535694] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535694] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535695] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535697] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [30.4, 100.0, 100.0, 100.0]
+[1746535697] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535697] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535697] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535699] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [18.6, 100.0, 100.0, 99.0]
+[1746535699] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535699] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535699] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535701] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [8.6, 100.0, 99.0, 100.0]
+[1746535701] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535701] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535701] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535703] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [7.1, 100.0, 100.0, 100.0]
+[1746535703] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535703] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535703] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535705] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [7.4, 100.0, 100.0, 99.0]
+[1746535705] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535705] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535705] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535707] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [11.4, 100.0, 100.0, 100.0]
+[1746535707] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535707] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535707] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535709] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [53.7, 100.0, 100.0, 100.0]
+[1746535709] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535709] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535709] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535711] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [71.9, 100.0, 99.0, 100.0]
+[1746535711] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535711] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535711] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535711] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret paused
+[1746535711] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal unpaused
+[1746535711] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535713] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [29.0, 29.5, 89.9, 100.0]
+[1746535713] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535713] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535713] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535715] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [29.0, 31.8, 90.9, 100.0]
+[1746535715] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535715] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535715] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535715] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal paused
+[1746535715] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret unpaused
+[1746535715] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535717] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [71.9, 99.0, 100.0, 100.0]
+[1746535717] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535717] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535717] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535718] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret paused
+[1746535718] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal unpaused
+[1746535718] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535720] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [39.3, 43.5, 87.8, 100.0]
+[1746535720] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535720] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535720] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535722] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [46.2, 47.1, 87.8, 100.0]
+[1746535722] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535722] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535722] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535722] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal paused
+[1746535722] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret unpaused
+[1746535722] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535724] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [90.9, 100.0, 100.0, 100.0]
+[1746535724] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535724] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535724] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535724] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret paused
+[1746535724] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal unpaused
+[1746535724] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535726] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [43.7, 46.3, 88.0, 100.0]
+[1746535726] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535726] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535726] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535728] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [49.2, 47.1, 88.7, 100.0]
+[1746535728] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535728] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535728] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535728] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal paused
+[1746535728] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret unpaused
+[1746535728] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535730] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [95.7, 100.0, 100.0, 100.0]
+[1746535730] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535730] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535730] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535730] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret paused
+[1746535730] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal unpaused
+[1746535730] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535732] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [54.3, 56.5, 85.6, 100.0]
+[1746535732] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535732] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535732] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535734] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [55.4, 54.0, 85.7, 100.0]
+[1746535734] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535734] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535735] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535737] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [55.9, 53.8, 85.4, 100.0]
+[1746535737] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535737] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535737] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535739] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [41.7, 36.4, 89.7, 100.0]
+[1746535739] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535739] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535739] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535741] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [24.4, 15.7, 93.9, 100.0]
+[1746535741] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535741] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535741] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535741] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal paused
+[1746535741] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret unpaused
+[1746535741] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535743] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [27.3, 100.0, 100.0, 100.0]
+[1746535743] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535743] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535743] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535745] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [25.9, 100.0, 100.0, 100.0]
+[1746535745] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535745] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535745] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535747] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [27.8, 100.0, 100.0, 100.0]
+[1746535747] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535747] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535747] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535749] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [46.4, 99.0, 100.0, 100.0]
+[1746535749] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535749] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535749] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535751] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [45.5, 100.0, 100.0, 100.0]
+[1746535751] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535751] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535751] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535753] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [44.4, 100.0, 100.0, 100.0]
+[1746535753] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535753] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535753] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535755] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [49.1, 100.0, 100.0, 100.0]
+[1746535755] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535755] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535755] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535757] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [45.5, 100.0, 100.0, 100.0]
+[1746535757] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535757] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535757] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535759] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [100.0, 100.0, 100.0, 100.0]
+[1746535759] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535759] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535760] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535760] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret paused
+[1746535760] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal unpaused
+[1746535760] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535762] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [85.4, 89.8, 80.4, 100.0]
+[1746535762] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535762] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535762] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535764] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [83.3, 84.9, 80.6, 100.0]
+[1746535764] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535764] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535764] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535766] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [84.3, 86.4, 81.4, 100.0]
+[1746535766] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535766] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535766] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535768] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [86.2, 88.9, 82.5, 99.0]
+[1746535768] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535768] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535768] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535770] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [21.0, 7.7, 98.0, 100.0]
+[1746535770] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535770] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535770] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535772] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [19.6, 7.9, 99.0, 99.0]
+[1746535772] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535772] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535772] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.PAUSED
+[1746535772] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal paused
+[1746535772] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret unpaused
+[1746535772] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535774] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [6.2, 100.0, 100.0, 100.0]
+[1746535774] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535774] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535774] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535776] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [7.6, 100.0, 100.0, 100.0]
+[1746535776] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535776] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535776] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535778] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [10.1, 100.0, 100.0, 100.0]
+[1746535778] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535778] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535778] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.RUNNING
+[1746535780] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [2.9, 1.1, 2.1, 1.1]
+[1746535780] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535780] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535780] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret completed in 413.87048602104187 seconds
+[1746535780] [policy: 2_3_cores] [[32mINFO[0m] [job] Job ferret status: JobStatus.COMPLETED
+[1746535781] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine started with cores 1,2,3 and 3 threads
+[1746535783] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [7.2, 70.4, 32.7, 61.1]
+[1746535783] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535783] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535783] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535785] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [9.2, 100.0, 100.0, 100.0]
+[1746535785] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535785] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535785] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535787] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [13.6, 100.0, 100.0, 99.0]
+[1746535787] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535787] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535787] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535789] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [65.5, 92.0, 100.0, 91.9]
+[1746535789] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535789] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535789] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535791] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [100.0, 100.0, 100.0, 100.0]
+[1746535791] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535791] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535791] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535791] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine paused
+[1746535791] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal unpaused
+[1746535791] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535793] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [62.0, 68.9, 84.5, 100.0]
+[1746535793] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535793] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535793] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535795] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [63.4, 67.1, 84.5, 100.0]
+[1746535795] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535795] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535795] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535797] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [59.4, 62.5, 84.8, 100.0]
+[1746535797] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535797] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535797] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535799] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [73.3, 76.6, 83.7, 100.0]
+[1746535799] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535799] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535799] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535801] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [78.5, 83.5, 80.6, 100.0]
+[1746535801] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535801] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535801] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535803] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [80.0, 82.8, 81.4, 100.0]
+[1746535803] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535803] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535803] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535805] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [79.8, 83.5, 80.8, 100.0]
+[1746535805] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535805] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535805] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535807] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [81.7, 85.2, 79.8, 100.0]
+[1746535807] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535807] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535807] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535809] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [39.1, 32.9, 92.0, 100.0]
+[1746535809] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535809] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535809] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535811] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [26.0, 9.0, 96.0, 100.0]
+[1746535811] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535811] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535811] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535811] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal paused
+[1746535811] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine unpaused
+[1746535811] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535813] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [10.9, 100.0, 100.0, 100.0]
+[1746535813] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535813] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535813] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535815] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [9.5, 100.0, 100.0, 100.0]
+[1746535815] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535815] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535815] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535817] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [12.3, 100.0, 100.0, 100.0]
+[1746535817] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535817] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535817] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535819] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [9.9, 100.0, 100.0, 100.0]
+[1746535819] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535819] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535819] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535821] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [13.0, 100.0, 100.0, 100.0]
+[1746535821] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535821] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535821] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535823] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [9.5, 100.0, 100.0, 100.0]
+[1746535823] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535823] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535823] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535825] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [8.1, 100.0, 100.0, 99.0]
+[1746535825] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535825] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535825] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535827] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [14.3, 100.0, 100.0, 100.0]
+[1746535827] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535827] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535827] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535829] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [92.9, 100.0, 100.0, 100.0]
+[1746535829] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535829] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535829] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535829] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine paused
+[1746535829] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal unpaused
+[1746535829] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535831] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [97.9, 99.0, 74.2, 99.0]
+[1746535831] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535831] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535831] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535833] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [91.0, 92.6, 79.4, 100.0]
+[1746535833] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535833] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535833] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535835] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [90.3, 92.8, 80.6, 100.0]
+[1746535835] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535835] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535835] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535837] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [93.6, 91.1, 79.4, 100.0]
+[1746535837] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535837] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535837] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535839] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [25.5, 9.0, 98.0, 100.0]
+[1746535839] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535839] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535839] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535841] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [17.0, 10.9, 98.0, 99.0]
+[1746535841] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535841] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535841] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535841] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal paused
+[1746535841] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine unpaused
+[1746535841] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535843] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [9.8, 100.0, 100.0, 100.0]
+[1746535843] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535843] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535843] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535845] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [9.6, 100.0, 100.0, 100.0]
+[1746535845] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535845] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535845] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535847] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [3.7, 100.0, 100.0, 100.0]
+[1746535847] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535847] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535847] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535849] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [10.7, 100.0, 100.0, 100.0]
+[1746535849] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535849] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535849] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535851] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [8.4, 100.0, 100.0, 100.0]
+[1746535851] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535851] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535851] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535853] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [7.3, 100.0, 100.0, 100.0]
+[1746535853] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535853] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535853] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535855] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [9.8, 100.0, 100.0, 100.0]
+[1746535855] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535855] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535855] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535857] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [7.3, 100.0, 100.0, 100.0]
+[1746535857] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535857] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535857] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535859] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [18.9, 100.0, 100.0, 100.0]
+[1746535859] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535859] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535859] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535861] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [26.8, 100.0, 100.0, 100.0]
+[1746535861] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535861] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535861] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535863] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [22.8, 100.0, 100.0, 100.0]
+[1746535863] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535863] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535863] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535865] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [20.0, 100.0, 100.0, 100.0]
+[1746535865] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535866] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535866] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535868] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [29.8, 100.0, 100.0, 100.0]
+[1746535868] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535868] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535868] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535870] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [81.1, 100.0, 100.0, 100.0]
+[1746535870] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535870] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535870] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535870] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine paused
+[1746535870] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal unpaused
+[1746535870] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535872] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [32.3, 31.2, 89.8, 100.0]
+[1746535872] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535872] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535872] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535874] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [30.6, 34.4, 89.8, 100.0]
+[1746535874] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535874] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535874] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535874] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal paused
+[1746535874] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine unpaused
+[1746535874] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535876] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [78.9, 100.0, 100.0, 100.0]
+[1746535876] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535876] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.PAUSED
+[1746535876] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535876] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine paused
+[1746535876] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal unpaused
+[1746535876] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535878] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [28.6, 29.5, 89.0, 100.0]
+[1746535878] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535878] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535878] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535880] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [52.4, 54.5, 85.6, 100.0]
+[1746535880] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535880] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535880] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535882] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [54.4, 53.0, 86.5, 100.0]
+[1746535882] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535882] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535882] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535884] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [54.5, 55.9, 85.9, 100.0]
+[1746535884] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535884] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535884] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535886] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [57.4, 53.7, 86.7, 100.0]
+[1746535886] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535886] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535886] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535888] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [54.3, 58.0, 85.6, 100.0]
+[1746535888] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535888] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535888] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535890] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [68.0, 66.2, 83.5, 100.0]
+[1746535890] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535890] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535890] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535892] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [67.1, 67.6, 83.7, 100.0]
+[1746535892] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535892] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535892] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535894] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [64.8, 68.9, 83.7, 100.0]
+[1746535894] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535894] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535894] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535896] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [66.2, 68.9, 84.5, 100.0]
+[1746535896] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535896] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535896] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535898] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [72.4, 73.0, 84.8, 100.0]
+[1746535898] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535898] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535898] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535900] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [63.4, 60.6, 85.9, 100.0]
+[1746535900] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535900] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535900] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535902] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [58.8, 58.8, 86.7, 100.0]
+[1746535902] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535902] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535902] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535904] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [53.0, 48.5, 100.0, 14.9]
+[1746535904] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535904] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535904] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535906] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [58.8, 53.6, 100.0, 17.3]
+[1746535906] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535906] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535906] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535908] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [53.0, 52.9, 100.0, 13.7]
+[1746535908] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535908] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535908] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535910] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [15.5, 11.8, 100.0, 3.6]
+[1746535910] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535910] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.RUNNING
+[1746535910] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535912] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [11.8, 11.8, 3.4, 2.4]
+[1746535912] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535912] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal completed in 371.95414662361145 seconds
+[1746535912] [policy: 2_3_cores] [[32mINFO[0m] [job] Job canneal status: JobStatus.COMPLETED
+[1746535912] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535912] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine unpaused
+[1746535912] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535914] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [40.0, 100.0, 100.0, 100.0]
+[1746535914] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535914] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535916] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [41.5, 100.0, 100.0, 100.0]
+[1746535916] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535916] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535918] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [45.6, 100.0, 100.0, 100.0]
+[1746535918] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535918] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535920] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [100.0, 100.0, 100.0, 100.0]
+[1746535920] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535920] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535920] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine paused
+[1746535920] [policy: 2_3_cores] [[32mINFO[0m] [job] Job dedup started with cores 2,3 and 2 threads
+[1746535920] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535922] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [77.9, 67.6, 100.0, 30.1]
+[1746535922] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535922] [policy: 2_3_cores] [[32mINFO[0m] [job] Job dedup status: JobStatus.RUNNING
+[1746535922] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535924] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [72.7, 69.7, 100.0, 100.0]
+[1746535924] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535924] [policy: 2_3_cores] [[32mINFO[0m] [job] Job dedup status: JobStatus.RUNNING
+[1746535924] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535926] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [72.0, 71.1, 100.0, 100.0]
+[1746535926] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535926] [policy: 2_3_cores] [[32mINFO[0m] [job] Job dedup status: JobStatus.RUNNING
+[1746535926] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535928] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [61.0, 57.7, 99.0, 100.0]
+[1746535928] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535928] [policy: 2_3_cores] [[32mINFO[0m] [job] Job dedup status: JobStatus.RUNNING
+[1746535928] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535930] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [26.9, 9.2, 100.0, 99.0]
+[1746535930] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535930] [policy: 2_3_cores] [[32mINFO[0m] [job] Job dedup status: JobStatus.RUNNING
+[1746535930] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535932] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [24.4, 10.5, 100.0, 98.0]
+[1746535932] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535932] [policy: 2_3_cores] [[32mINFO[0m] [job] Job dedup status: JobStatus.RUNNING
+[1746535932] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535933] [policy: 2_3_cores] [[32mINFO[0m] [job] Job dedup paused
+[1746535934] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine unpaused
+[1746535934] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535936] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [24.6, 100.0, 100.0, 100.0]
+[1746535936] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535936] [policy: 2_3_cores] [[32mINFO[0m] [job] Job dedup status: JobStatus.PAUSED
+[1746535936] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535938] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [19.7, 100.0, 100.0, 100.0]
+[1746535938] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535938] [policy: 2_3_cores] [[32mINFO[0m] [job] Job dedup status: JobStatus.PAUSED
+[1746535938] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535940] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [100.0, 100.0, 100.0, 100.0]
+[1746535940] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535940] [policy: 2_3_cores] [[32mINFO[0m] [job] Job dedup status: JobStatus.PAUSED
+[1746535940] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535940] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine paused
+[1746535941] [policy: 2_3_cores] [[32mINFO[0m] [job] Job dedup unpaused
+[1746535941] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535943] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [99.0, 99.0, 100.0, 100.0]
+[1746535943] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535943] [policy: 2_3_cores] [[32mINFO[0m] [job] Job dedup status: JobStatus.RUNNING
+[1746535943] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535945] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [92.6, 92.6, 100.0, 100.0]
+[1746535945] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535945] [policy: 2_3_cores] [[32mINFO[0m] [job] Job dedup status: JobStatus.RUNNING
+[1746535945] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535947] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [89.0, 86.4, 100.0, 100.0]
+[1746535947] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535947] [policy: 2_3_cores] [[32mINFO[0m] [job] Job dedup status: JobStatus.RUNNING
+[1746535947] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535949] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [39.1, 37.9, 56.4, 54.9]
+[1746535949] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535951] [policy: 2_3_cores] [[32mINFO[0m] [job] Job dedup completed in 31.030906200408936 seconds
+[1746535951] [policy: 2_3_cores] [[32mINFO[0m] [job] Job dedup status: JobStatus.COMPLETED
+[1746535951] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535952] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix started with cores 2,3 and 2 threads
+[1746535954] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [24.3, 18.5, 100.0, 100.0]
+[1746535954] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535954] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.RUNNING
+[1746535954] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535954] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix paused
+[1746535954] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine unpaused
+[1746535954] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535956] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [61.7, 100.0, 100.0, 100.0]
+[1746535956] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535956] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746535956] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535958] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [54.5, 100.0, 100.0, 100.0]
+[1746535958] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535958] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746535958] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535960] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [100.0, 100.0, 100.0, 100.0]
+[1746535960] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535960] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746535960] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535960] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine paused
+[1746535960] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix unpaused
+[1746535960] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746535962] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [62.5, 63.4, 100.0, 100.0]
+[1746535962] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535962] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.RUNNING
+[1746535962] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535964] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [59.2, 61.4, 100.0, 100.0]
+[1746535964] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535964] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.RUNNING
+[1746535964] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535966] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [63.0, 65.8, 100.0, 100.0]
+[1746535966] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535966] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.RUNNING
+[1746535966] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535968] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [60.6, 61.4, 100.0, 100.0]
+[1746535968] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535968] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.RUNNING
+[1746535968] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535970] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [18.6, 18.8, 100.0, 100.0]
+[1746535970] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746535970] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.RUNNING
+[1746535970] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535972] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [22.2, 16.4, 100.0, 100.0]
+[1746535972] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535972] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.RUNNING
+[1746535972] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746535972] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix paused
+[1746535972] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine unpaused
+[1746535972] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746535974] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [54.2, 100.0, 100.0, 100.0]
+[1746535974] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535974] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746535974] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535976] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [50.9, 100.0, 100.0, 100.0]
+[1746535976] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535976] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746535976] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535978] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [52.6, 99.0, 100.0, 100.0]
+[1746535978] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535978] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746535978] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535980] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [52.7, 100.0, 100.0, 100.0]
+[1746535980] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535980] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746535980] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535982] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [50.0, 100.0, 100.0, 100.0]
+[1746535982] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535982] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746535982] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535984] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [55.2, 100.0, 100.0, 100.0]
+[1746535984] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535984] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746535984] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535986] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [51.9, 100.0, 100.0, 100.0]
+[1746535986] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535986] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746535986] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535988] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [44.2, 100.0, 100.0, 100.0]
+[1746535988] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535988] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746535988] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535990] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [8.2, 100.0, 100.0, 100.0]
+[1746535990] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535990] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746535990] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535992] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [9.3, 100.0, 100.0, 100.0]
+[1746535992] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535992] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746535992] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535994] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [5.9, 100.0, 100.0, 100.0]
+[1746535994] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535994] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746535994] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535996] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [6.0, 100.0, 100.0, 100.0]
+[1746535996] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535996] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746535996] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746535998] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [7.1, 100.0, 100.0, 100.0]
+[1746535998] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746535998] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746535998] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536000] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [46.3, 100.0, 100.0, 100.0]
+[1746536000] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536000] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746536000] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536002] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [48.1, 100.0, 100.0, 100.0]
+[1746536002] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536002] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746536002] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536004] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [54.2, 100.0, 100.0, 100.0]
+[1746536004] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536004] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746536004] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536006] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [45.3, 100.0, 100.0, 100.0]
+[1746536006] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536006] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746536006] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536008] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [40.4, 100.0, 100.0, 100.0]
+[1746536008] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536008] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746536008] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536010] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [91.8, 100.0, 100.0, 100.0]
+[1746536010] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536010] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746536010] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536010] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine paused
+[1746536010] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix unpaused
+[1746536010] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746536012] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [38.8, 33.9, 100.0, 100.0]
+[1746536012] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536012] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.RUNNING
+[1746536012] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536014] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [31.3, 36.5, 100.0, 100.0]
+[1746536014] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536014] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.RUNNING
+[1746536014] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536014] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix paused
+[1746536014] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine unpaused
+[1746536014] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746536016] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [93.3, 100.0, 100.0, 100.0]
+[1746536016] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536016] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746536016] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536016] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine paused
+[1746536016] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix unpaused
+[1746536016] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746536018] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [32.9, 27.8, 100.0, 100.0]
+[1746536018] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536018] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.RUNNING
+[1746536018] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536020] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [12.8, 8.5, 100.0, 25.3]
+[1746536020] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536020] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.RUNNING
+[1746536020] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536021] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix paused
+[1746536021] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine unpaused
+[1746536021] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746536023] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [12.5, 100.0, 100.0, 100.0]
+[1746536023] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536023] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746536023] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536025] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [10.9, 100.0, 100.0, 100.0]
+[1746536025] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536025] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746536025] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536027] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [10.9, 100.0, 100.0, 100.0]
+[1746536027] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536027] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746536027] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536029] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [14.3, 100.0, 100.0, 100.0]
+[1746536029] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536029] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746536029] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536031] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [9.2, 100.0, 100.0, 100.0]
+[1746536031] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536031] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746536031] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536033] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [9.2, 100.0, 100.0, 100.0]
+[1746536033] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536033] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746536033] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536035] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [8.0, 100.0, 100.0, 100.0]
+[1746536035] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536035] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746536035] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536037] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [5.5, 100.0, 100.0, 100.0]
+[1746536037] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536037] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746536037] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536039] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [48.8, 100.0, 100.0, 100.0]
+[1746536039] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536039] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746536039] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536041] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [92.0, 100.0, 100.0, 100.0]
+[1746536041] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536041] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746536041] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536041] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine paused
+[1746536041] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix unpaused
+[1746536041] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746536043] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [47.1, 40.3, 100.0, 100.0]
+[1746536043] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536043] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.RUNNING
+[1746536043] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536045] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [47.0, 39.1, 94.9, 100.0]
+[1746536045] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536045] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.RUNNING
+[1746536045] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536045] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix paused
+[1746536045] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine unpaused
+[1746536045] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746536047] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [90.5, 100.0, 100.0, 100.0]
+[1746536047] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536047] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746536047] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536047] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine paused
+[1746536047] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix unpaused
+[1746536047] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746536049] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [46.4, 46.3, 100.0, 100.0]
+[1746536049] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536049] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.RUNNING
+[1746536049] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536051] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [35.8, 41.5, 65.3, 100.0]
+[1746536051] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536051] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.RUNNING
+[1746536051] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536051] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix paused
+[1746536051] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine unpaused
+[1746536051] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746536053] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [94.4, 100.0, 100.0, 100.0]
+[1746536053] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536053] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.PAUSED
+[1746536053] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536053] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine paused
+[1746536053] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix unpaused
+[1746536053] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746536055] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [36.1, 42.2, 15.9, 76.1]
+[1746536055] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536055] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix completed in 103.40046668052673 seconds
+[1746536055] [policy: 2_3_cores] [[32mINFO[0m] [job] Job radix status: JobStatus.COMPLETED
+[1746536055] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536055] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips started with cores 2,3 and 3 threads
+[1746536057] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [45.3, 34.9, 98.0, 21.2]
+[1746536057] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536057] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536057] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536057] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746536059] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [76.5, 8.8, 100.0, 100.0]
+[1746536059] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536059] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536059] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536059] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746536061] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [29.7, 29.0, 100.0, 100.0]
+[1746536061] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536061] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536061] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536061] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746536063] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [76.1, 6.7, 100.0, 100.0]
+[1746536063] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536063] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536063] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536063] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746536065] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [27.0, 27.4, 100.0, 100.0]
+[1746536065] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536065] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536065] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536066] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746536068] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [74.2, 12.4, 100.0, 100.0]
+[1746536068] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536068] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536068] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536068] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746536070] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [81.7, 84.7, 100.0, 100.0]
+[1746536070] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536070] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536070] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536072] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [83.1, 87.4, 100.0, 100.0]
+[1746536072] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536072] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536072] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536074] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [83.7, 86.2, 100.0, 100.0]
+[1746536074] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536074] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536074] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536076] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [80.5, 85.9, 99.0, 100.0]
+[1746536076] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536076] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536076] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536078] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [81.2, 84.4, 100.0, 100.0]
+[1746536078] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536078] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536078] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536080] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [22.4, 23.9, 100.0, 100.0]
+[1746536080] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536080] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536080] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536082] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [23.2, 20.3, 100.0, 100.0]
+[1746536082] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536082] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536082] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536082] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746536084] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [51.8, 8.7, 100.0, 100.0]
+[1746536084] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536084] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536084] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536086] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [51.8, 6.6, 100.0, 100.0]
+[1746536086] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536086] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536086] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536088] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [52.6, 8.8, 100.0, 100.0]
+[1746536088] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536088] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536088] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536090] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [35.8, 7.5, 100.0, 100.0]
+[1746536090] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536090] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536090] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536092] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [33.3, 6.4, 100.0, 100.0]
+[1746536092] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536092] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536092] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536094] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [46.4, 6.5, 100.0, 99.0]
+[1746536094] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536094] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536094] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536096] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [34.6, 7.5, 100.0, 100.0]
+[1746536096] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536096] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536096] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536098] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [36.5, 5.5, 100.0, 100.0]
+[1746536098] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536098] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536098] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536100] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [5.2, 5.2, 100.0, 100.0]
+[1746536100] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536100] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536100] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536102] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [6.5, 8.2, 100.0, 100.0]
+[1746536102] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536102] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536102] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536104] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [7.7, 8.1, 100.0, 100.0]
+[1746536104] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536104] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536104] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536106] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [5.2, 8.2, 100.0, 100.0]
+[1746536106] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536106] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536106] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536108] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [7.7, 3.1, 100.0, 100.0]
+[1746536108] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536108] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536108] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536110] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [7.7, 5.2, 100.0, 100.0]
+[1746536110] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536110] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536110] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536112] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [7.8, 7.3, 100.0, 100.0]
+[1746536112] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536112] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.RUNNING
+[1746536112] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536114] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [10.3, 9.8, 39.4, 43.0]
+[1746536114] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536114] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips completed in 58.43916845321655 seconds
+[1746536114] [policy: 2_3_cores] [[32mINFO[0m] [job] Job vips status: JobStatus.COMPLETED
+[1746536114] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.PAUSED
+[1746536114] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 1,2,3
+[1746536114] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine unpaused
+[1746536116] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [15.2, 100.0, 100.0, 100.0]
+[1746536116] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536116] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536116] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 1,2,3
+[1746536116] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536118] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [15.2, 100.0, 100.0, 100.0]
+[1746536118] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536118] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536118] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 1,2,3
+[1746536118] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536120] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [75.0, 100.0, 100.0, 100.0]
+[1746536120] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536120] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536120] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 2,3
+[1746536120] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536120] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746536122] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [27.0, 30.2, 100.0, 100.0]
+[1746536122] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536122] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536122] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 2,3
+[1746536122] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536124] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [32.8, 28.1, 100.0, 100.0]
+[1746536124] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536124] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536124] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 1,2,3
+[1746536124] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536124] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746536126] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [75.4, 100.0, 100.0, 100.0]
+[1746536126] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536126] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536126] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 2,3
+[1746536126] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536126] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746536128] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [28.1, 28.8, 100.0, 100.0]
+[1746536128] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536128] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536128] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 2,3
+[1746536128] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536130] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [29.5, 30.8, 100.0, 100.0]
+[1746536130] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536130] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536130] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 1,2,3
+[1746536130] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536130] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746536132] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [82.2, 100.0, 100.0, 100.0]
+[1746536132] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536132] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536132] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 2,3
+[1746536132] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536132] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746536134] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [31.2, 32.8, 100.0, 100.0]
+[1746536134] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536134] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536134] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 2,3
+[1746536134] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536136] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [35.5, 29.9, 100.0, 100.0]
+[1746536136] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536136] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536136] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 1,2,3
+[1746536136] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536136] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746536138] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [70.8, 100.0, 100.0, 100.0]
+[1746536138] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536138] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536138] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 2,3
+[1746536138] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536138] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746536140] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [16.2, 9.0, 100.0, 100.0]
+[1746536140] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536140] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536140] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 2,3
+[1746536140] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536142] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [17.0, 9.1, 100.0, 100.0]
+[1746536142] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536142] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536142] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 1,2,3
+[1746536142] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536142] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746536144] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [6.4, 100.0, 100.0, 100.0]
+[1746536144] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536144] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536145] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 1,2,3
+[1746536145] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536147] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [13.6, 100.0, 100.0, 100.0]
+[1746536147] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536147] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536147] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 1,2,3
+[1746536147] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536149] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [44.2, 100.0, 100.0, 100.0]
+[1746536149] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536149] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536149] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 1,2,3
+[1746536149] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536151] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [100.0, 100.0, 100.0, 100.0]
+[1746536151] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536151] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536151] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 2,3
+[1746536151] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536151] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746536153] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [88.2, 87.9, 100.0, 100.0]
+[1746536153] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536153] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536153] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 2,3
+[1746536153] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536155] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [77.2, 79.8, 100.0, 100.0]
+[1746536155] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536155] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536155] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 2,3
+[1746536155] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536157] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [77.5, 79.3, 100.0, 100.0]
+[1746536157] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536157] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536157] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 2,3
+[1746536157] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536159] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [43.6, 35.6, 100.0, 100.0]
+[1746536159] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536159] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536159] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 2,3
+[1746536159] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536161] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [17.6, 5.4, 100.0, 100.0]
+[1746536161] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536161] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536161] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 1,2,3
+[1746536161] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536161] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0', '8086'], returncode=0)
+[1746536163] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [10.2, 100.0, 100.0, 100.0]
+[1746536163] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536163] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536163] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 1,2,3
+[1746536163] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536165] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [7.1, 100.0, 100.0, 100.0]
+[1746536165] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536165] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536165] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 1,2,3
+[1746536165] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536167] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [8.2, 100.0, 100.0, 100.0]
+[1746536167] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536167] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536167] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 1,2,3
+[1746536167] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536169] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [23.4, 100.0, 100.0, 100.0]
+[1746536169] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536169] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536169] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 1,2,3
+[1746536169] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536171] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [29.6, 100.0, 100.0, 100.0]
+[1746536171] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536171] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536171] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 1,2,3
+[1746536171] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536173] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [25.0, 100.0, 100.0, 100.0]
+[1746536173] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536173] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536173] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 1,2,3
+[1746536173] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536175] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [25.5, 100.0, 100.0, 100.0]
+[1746536175] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536175] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536175] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 1,2,3
+[1746536175] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536177] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [26.9, 100.0, 100.0, 100.0]
+[1746536177] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {1, 2, 3}
+[1746536177] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536177] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 1,2,3
+[1746536177] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536179] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [100.0, 100.0, 100.0, 100.0]
+[1746536179] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536179] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.RUNNING
+[1746536179] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine updated to cores 2,3
+[1746536179] [policy: 2_3_cores] [[33mWARNING[0m] [policy_2_3_cores] Error unpausing 3-core job: Job freqmine is not paused
+[1746536179] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0,1', '8086'], returncode=0)
+[1746536181] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CPU usage: [49.3, 48.5, 7.1, 10.8]
+[1746536181] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Cores available for jobs: {2, 3}
+[1746536181] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine completed in 400.59769225120544 seconds
+[1746536181] [policy: 2_3_cores] [[32mINFO[0m] [job] Job freqmine status: JobStatus.COMPLETED
+[1746536181] [policy: 2_3_cores] [[32mINFO[0m] [__main__] CompletedProcess(args=['sudo', 'taskset', '-a', '-cp', '0-3', '8086'], returncode=0)
+[1746536181] [policy: 2_3_cores] [[32mINFO[0m] [__main__] Scheduler completed in 827.6267564296722 seconds

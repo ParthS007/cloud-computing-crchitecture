@@ -1,0 +1,114 @@
+2025-05-06T15:46:15 start scheduler
+2025-05-06T15:46:15 start memcached [0,1] 2
+2025-05-06T15:46:15 update_cores memcached [0,1]
+2025-05-06T15:46:16 start ferret [2,3] 2
+2025-05-06T15:46:16 start blackscholes [1] 1
+2025-05-06T15:46:16 update_cores memcached [0]
+2025-05-06T15:46:52 pause blackscholes
+2025-05-06T15:46:52 update_cores memcached [0,1]
+2025-05-06T15:46:56 unpause blackscholes
+2025-05-06T15:46:56 update_cores memcached [0]
+2025-05-06T15:46:58 pause blackscholes
+2025-05-06T15:46:58 update_cores memcached [0,1]
+2025-05-06T15:47:02 unpause blackscholes
+2025-05-06T15:47:02 update_cores memcached [0]
+2025-05-06T15:47:52 pause blackscholes
+2025-05-06T15:47:52 update_cores memcached [0,1]
+2025-05-06T15:48:02 unpause blackscholes
+2025-05-06T15:48:02 update_cores memcached [0]
+2025-05-06T15:48:11 pause blackscholes
+2025-05-06T15:48:11 update_cores memcached [0,1]
+2025-05-06T15:48:23 unpause blackscholes
+2025-05-06T15:48:23 update_cores memcached [0]
+2025-05-06T15:48:42 pause blackscholes
+2025-05-06T15:48:42 update_cores memcached [0,1]
+2025-05-06T15:49:13 unpause blackscholes
+2025-05-06T15:49:13 update_cores memcached [0]
+2025-05-06T15:49:31 end blackscholes
+2025-05-06T15:49:32 start canneal [1] 1
+2025-05-06T15:49:42 pause canneal
+2025-05-06T15:49:42 update_cores memcached [0,1]
+2025-05-06T15:49:53 unpause canneal
+2025-05-06T15:49:53 update_cores memcached [0]
+2025-05-06T15:49:55 pause canneal
+2025-05-06T15:49:55 update_cores memcached [0,1]
+2025-05-06T15:49:59 unpause canneal
+2025-05-06T15:49:59 update_cores memcached [0]
+2025-05-06T15:50:02 pause canneal
+2025-05-06T15:50:02 update_cores memcached [0,1]
+2025-05-06T15:50:12 unpause canneal
+2025-05-06T15:50:12 update_cores memcached [0]
+2025-05-06T15:50:31 end ferret
+2025-05-06T15:50:31 start freqmine [2,3] 2
+2025-05-06T15:50:51 pause canneal
+2025-05-06T15:50:51 update_cores memcached [0,1]
+2025-05-06T15:51:03 unpause canneal
+2025-05-06T15:51:03 update_cores memcached [0]
+2025-05-06T15:51:32 pause canneal
+2025-05-06T15:51:32 update_cores memcached [0,1]
+2025-05-06T15:51:38 unpause canneal
+2025-05-06T15:51:38 update_cores memcached [0]
+2025-05-06T15:51:40 pause canneal
+2025-05-06T15:51:40 update_cores memcached [0,1]
+2025-05-06T15:52:04 unpause canneal
+2025-05-06T15:52:04 update_cores memcached [0]
+2025-05-06T15:52:30 pause canneal
+2025-05-06T15:52:30 update_cores memcached [0,1]
+2025-05-06T15:52:42 unpause canneal
+2025-05-06T15:52:42 update_cores memcached [0]
+2025-05-06T15:53:11 pause canneal
+2025-05-06T15:53:11 update_cores memcached [0,1]
+2025-05-06T15:53:33 unpause canneal
+2025-05-06T15:53:33 update_cores memcached [0]
+2025-05-06T15:53:41 pause canneal
+2025-05-06T15:53:41 update_cores memcached [0,1]
+2025-05-06T15:53:47 unpause canneal
+2025-05-06T15:53:47 update_cores memcached [0]
+2025-05-06T15:53:49 pause canneal
+2025-05-06T15:53:49 update_cores memcached [0,1]
+2025-05-06T15:53:53 unpause canneal
+2025-05-06T15:53:53 update_cores memcached [0]
+2025-05-06T15:54:21 pause canneal
+2025-05-06T15:54:21 update_cores memcached [0,1]
+2025-05-06T15:54:33 unpause canneal
+2025-05-06T15:54:34 update_cores memcached [0]
+2025-05-06T15:55:22 pause canneal
+2025-05-06T15:55:22 update_cores memcached [0,1]
+2025-05-06T15:55:24 end freqmine
+2025-05-06T15:55:24 start vips [2,3] 2
+2025-05-06T15:55:32 unpause canneal
+2025-05-06T15:55:32 update_cores memcached [0]
+2025-05-06T15:55:41 pause canneal
+2025-05-06T15:55:41 update_cores memcached [0,1]
+2025-05-06T15:55:53 unpause canneal
+2025-05-06T15:55:53 update_cores memcached [0]
+2025-05-06T15:56:01 pause canneal
+2025-05-06T15:56:01 update_cores memcached [0,1]
+2025-05-06T15:56:13 unpause canneal
+2025-05-06T15:56:13 update_cores memcached [0]
+2025-05-06T15:56:30 end vips
+2025-05-06T15:56:30 start dedup [2,3] 1
+2025-05-06T15:56:32 pause canneal
+2025-05-06T15:56:32 update_cores memcached [0,1]
+2025-05-06T15:56:43 unpause canneal
+2025-05-06T15:56:43 update_cores memcached [0]
+2025-05-06T15:56:46 pause canneal
+2025-05-06T15:56:46 update_cores memcached [0,1]
+2025-05-06T15:56:51 unpause canneal
+2025-05-06T15:56:51 update_cores memcached [0]
+2025-05-06T15:56:53 pause canneal
+2025-05-06T15:56:53 update_cores memcached [0,1]
+2025-05-06T15:56:57 unpause canneal
+2025-05-06T15:56:57 update_cores memcached [0]
+2025-05-06T15:56:59 end dedup
+2025-05-06T15:56:59 pause canneal
+2025-05-06T15:57:00 start radix [2,3] 1
+2025-05-06T15:57:00 update_cores memcached [0,1]
+2025-05-06T15:57:04 update_cores memcached [0]
+2025-05-06T15:57:12 update_cores memcached [0,1]
+2025-05-06T15:57:22 update_cores memcached [0]
+2025-05-06T15:57:54 end radix
+2025-05-06T15:57:54 unpause canneal
+2025-05-06T15:57:56 end canneal
+2025-05-06T15:57:56 update_cores memcached [0,1,2,3]
+2025-05-06T15:57:56 end scheduler
